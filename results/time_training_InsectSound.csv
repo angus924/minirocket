@@ -1,0 +1,7 @@
+num_training_examples,time_training_seconds
+1024,5.05
+2048,8.42
+4096,12.38
+8192,21.52
+16384,32.86
+22952,36.96
