@@ -2,7 +2,7 @@
 
 ***MINIROCKET: A Very Fast (Almost) Deterministic Transform for Time Series Classification***
 
-[arXiv:???](https://arxiv.org/) (TBA)
+[arXiv:2012.08791](https://arxiv.org/abs/2012.08791) (preprint)
 
 > <div align="justify">Until recently, the most accurate methods for time series classification were limited by high computational complexity.  ROCKET achieves state-of-the-art accuracy with a fraction of the computational expense of most existing methods by transforming input time series using random convolutional kernels, and using the transformed features to train a linear classifier.  We reformulate ROCKET into a new method, MINIROCKET, making it up to 75 times faster on larger datasets, and making it almost deterministic (and optionally, with additional computational expense, fully deterministic), while maintaining essentially the same accuracy.  Using this method, it is possible to train and test a classifier on all of 109 datasets from the UCR archive to state-of-the-art accuracy in less than 10 minutes.  MINIROCKET is significantly faster than any other method of comparable accuracy (including ROCKET), and significantly more accurate than any other method of even roughly-similar computational expense.  As such, we suggest that MINIROCKET should now be considered and used as the default variant of ROCKET.</div>
 
@@ -13,7 +13,7 @@ Please cite as:
   author  = {Dempster, Angus and Schmidt, Daniel F and Webb, Geoffrey I},
   title   = {{MINIROCKET}: A Very Fast (Almost) Deterministic Transform for Time Series Classification},
   year    = {2020},
-  journal = {arXiv:???}
+  journal = {arXiv:2012.08791}
 }
 ```
 

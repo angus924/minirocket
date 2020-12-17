@@ -3,7 +3,7 @@
 # MiniRocket: A Very Fast (Almost) Deterministic Transform for Time Series
 # Classification
 
-# arXiv:???
+# https://arxiv.org/abs/2012.08791
 
 from numba import njit
 import numpy as np
