@@ -17,9 +17,11 @@ Please cite as:
 }
 ```
 
-## `sktime` / Multivariate
+## `sktime`\* / Multivariate
 
 An implementation of MINIROCKET (with multivariate capability) will be available through [sktime](https://github.com/alan-turing-institute/sktime).  Currently a [PR](https://github.com/alan-turing-institute/sktime/pull/542).
+
+\* *not yet suitable for larger datasets (10,000+ training examples); for larger datasets, it is more effective to integrate the transform with SGD or similar as per, e.g., [softmax.py](./code/softmax.py) (see below)*
 
 ## Results
 
