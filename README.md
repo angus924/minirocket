@@ -17,9 +17,9 @@ Please cite as:
 }
 ```
 
-## `sktime` (+ multivariate)
+## `sktime` / Multivariate
 
-An implementation of MINIROCKET (including basic multivariate capability) will be available through [sktime](https://github.com/alan-turing-institute/sktime).  Currently a [PR](https://github.com/alan-turing-institute/sktime/pull/542).
+An implementation of MINIROCKET (with multivariate capability) will be available through [sktime](https://github.com/alan-turing-institute/sktime).  Currently a [PR](https://github.com/alan-turing-institute/sktime/pull/542).
 
 ## Results
 
