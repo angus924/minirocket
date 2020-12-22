@@ -10,7 +10,7 @@ import numpy as np
 
 from minirocket import _PPV, _fit_dilations, _quantiles
 
-@njit("Tuple((float32[:],float32[:,:]))(float32[:,:],int32[:],int32[:],float32[:])", fastmath = True, parallel = False)
+@njit("Tuple((float32[:],float32[:,:]))(float32[:,:],int32[:],int32[:],float32[:])", fastmath = True, parallel = False, cache = True)
 def _fit_biases_transform(X, dilations, num_features_per_dilation, quantiles):
 
     num_examples, input_length = X.shape

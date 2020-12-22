@@ -8,7 +8,7 @@
 from numba import njit, prange, vectorize
 import numpy as np
 
-@njit("float32[:](float32[:,:],int32[:],int32[:],float32[:])", fastmath = True, parallel = False)
+@njit("float32[:](float32[:,:],int32[:],int32[:],float32[:])", fastmath = True, parallel = False, cache = True)
 def _fit_biases(X, dilations, num_features_per_dilation, quantiles):
 
     num_examples, input_length = X.shape
@@ -132,14 +132,14 @@ def fit(X, num_features = 10_000, max_dilations_per_kernel = 32):
     return dilations, num_features_per_dilation, biases
 
 # _PPV(C, b).mean() returns PPV for vector C (convolution output) and scalar b (bias)
-@vectorize("float32(float32,float32)", nopython = True)
+@vectorize("float32(float32,float32)", nopython = True, cache = True)
 def _PPV(a, b):
     if a > b:
         return 1
     else:
         return 0
 
-@njit("float32[:,:](float32[:,:],Tuple((int32[:],int32[:],float32[:])))", fastmath = True, parallel = True)
+@njit("float32[:,:](float32[:,:],Tuple((int32[:],int32[:],float32[:])))", fastmath = True, parallel = True, cache = True)
 def transform(X, parameters):
 
     num_examples, input_length = X.shape

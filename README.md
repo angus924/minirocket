@@ -52,6 +52,10 @@ An implementation of MINIROCKET (with multivariate capability) will be available
 ### [`minirocket_dv.py`](./code/minirocket_dv.py) (MINIROCKET<sub>DV</sub>)
 ### [`softmax.py`](./code/softmax.py) (PyTorch / 10,000+ Training Examples)
 
+## Note on Compilation
+
+The functions in [`minirocket.py`](./code/minirocket.py) and [`minirocket_dv.py`](./code/minirocket_dv.py) are compiled by Numba on import, which may take some time.  By default, the compiled functions are now cached, so this should only happen once (i.e., on the first import).
+
 ## Examples
 
 **MINIROCKET**
