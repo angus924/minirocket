@@ -66,7 +66,7 @@ from sklearn.linear_model import RidgeClassifierCV
 
 [...] # load data, etc.
 
-parameters = fit(X_training)
+parameters = fit(X_training) # input should be np.float32
 
 X_training_transform = transform(X_training, parameters)
 
@@ -87,7 +87,7 @@ from sklearn.linear_model import RidgeClassifierCV
 
 [...] # load data, etc.
 
-parameters, X_training_transform = fit_transform(X_training)
+parameters, X_training_transform = fit_transform(X_training) # input should be np.float32
 
 classifier = RidgeClassifierCV(alphas = np.logspace(-3, 3, 10), normalize = True)
 classifier.fit(X_training_transform, Y_training)
