@@ -52,9 +52,19 @@ MINIROCKET (including a basic multivariate implementation) is also available thr
 ### [`minirocket_dv.py`](./code/minirocket_dv.py) (MINIROCKET<sub>DV</sub>)
 ### [`softmax.py`](./code/softmax.py) (PyTorch / 10,000+ Training Examples)
 
-## Note on Compilation
+## Important Notes
+
+### Compilation
 
 The functions in [`minirocket.py`](./code/minirocket.py) and [`minirocket_dv.py`](./code/minirocket_dv.py) are compiled by Numba on import, which may take some time.  By default, the compiled functions are now cached, so this should only happen once (i.e., on the first import).
+
+### Input Data Type
+
+Input data should be of type `np.float32`.  Alternatively, you can change the Numba signatures to accept, e.g., `np.float64`.
+
+### Normalisation
+
+Unlike ROCKET, MINIROCKET does **not** require the input time series to be normalised.  (However, whether or not it makes sense to normalise the input time series may depend on your particular application.)
 
 ## Examples
 
@@ -66,7 +76,11 @@ from sklearn.linear_model import RidgeClassifierCV
 
 [...] # load data, etc.
 
-parameters = fit(X_training) # input should be np.float32
+# note:
+# * input time series do *not* need to be normalised
+# * input data should be np.float32
+
+parameters = fit(X_training)
 
 X_training_transform = transform(X_training, parameters)
 
@@ -87,7 +101,11 @@ from sklearn.linear_model import RidgeClassifierCV
 
 [...] # load data, etc.
 
-parameters, X_training_transform = fit_transform(X_training) # input should be np.float32
+# note:
+# * input time series do *not* need to be normalised
+# * input data should be np.float32
+
+parameters, X_training_transform = fit_transform(X_training)
 
 classifier = RidgeClassifierCV(alphas = np.logspace(-3, 3, 10), normalize = True)
 classifier.fit(X_training_transform, Y_training)
