@@ -52,6 +52,7 @@ MINIROCKET (including a basic multivariate implementation) is also available thr
 ### [`minirocket_dv.py`](./code/minirocket_dv.py) (MINIROCKET<sub>DV</sub>)
 ### [`softmax.py`](./code/softmax.py) (PyTorch / 10,000+ Training Examples)
 ### [`minirocket_multivariate.py`](./code/minirocket_multivariate.py) (equivalent to [sktime/MiniRocketMultivariate](https://github.com/alan-turing-institute/sktime/blob/master/sktime/transformations/panel/rocket/_minirocket_multivariate.py))
+### [`minirocket_variable.py`](./code/minirocket_multivariate.py) (variable-length input; *experimental*)
 
 ## Important Notes
 
@@ -125,6 +126,35 @@ model_etc = train("InsectSound_TRAIN_shuffled.csv", num_classes = 10, training_s
 # note: 22,952 = 25,000 - 2,048 (validation)
 
 predictions, accuracy = predict("InsectSound_TEST.csv", *model_etc)
+```
+
+**MINIROCKET (Variable-Length Input)** *Experimental*
+
+```python
+from minirocket_variable import fit, transform
+from sklearn.linear_model import RidgeClassifierCV
+
+[...] # load data, etc.
+
+# note:
+# * input time series do *not* need to be normalised
+# * input data should be np.float32
+
+# special instructions for variable-length input:
+# * concatenate variable-length input time series into a single 1d numpy array
+# * provide another 1d array with the lengths of each of the input time series
+# * input data should be np.float32 (as above); lengths should be np.int32
+
+parameters = fit(X_training_1d, X_training_lengths)
+
+X_training_transform = transform(X_training_1d, X_training_lengths, parameters)
+
+classifier = RidgeClassifierCV(alphas = np.logspace(-3, 3, 10), normalize = True)
+classifier.fit(X_training_transform, Y_training)
+
+X_test_transform = transform(X_test_1d, X_test_lengths, parameters)
+
+predictions = classifier.predict(X_test_transform)
 ```
 
 ## Acknowledgements
