@@ -128,7 +128,7 @@ model_etc = train("InsectSound_TRAIN_shuffled.csv", num_classes = 10, training_s
 predictions, accuracy = predict("InsectSound_TEST.csv", *model_etc)
 ```
 
-**MINIROCKET (Variable-Length Input)** *Experimental*
+**Variable-Length Input** (*Experimental*)
 
 ```python
 from minirocket_variable import fit, transform
