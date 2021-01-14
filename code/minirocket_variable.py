@@ -76,13 +76,13 @@ def _fit_biases(X, L, dilations, num_features_per_dilation, quantiles):
             start = dilation
             end = input_length - padding
 
-            if end > 0:
-                for gamma_index in range(9 // 2):
+            for gamma_index in range(9 // 2):
 
+                if end > 0:
                     C_alpha[-end:] = C_alpha[-end:] + A[:end]
                     C_gamma[gamma_index, -end:] = G[:end]
 
-                    end += dilation
+                end += dilation
 
             for gamma_index in range(9 // 2 + 1, 9):
 
@@ -216,13 +216,14 @@ def transform(X, L, parameters):
             start = dilation
             end = input_length - padding
 
-            if end > 0:
-                for gamma_index in range(9 // 2):
+            
+            for gamma_index in range(9 // 2):
 
+                if end > 0:
                     C_alpha[-end:] = C_alpha[-end:] + A[:end]
                     C_gamma[gamma_index, -end:] = G[:end]
 
-                    end += dilation
+                end += dilation
 
             for gamma_index in range(9 // 2 + 1, 9):
 
