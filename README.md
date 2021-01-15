@@ -149,8 +149,9 @@ from sklearn.linear_model import RidgeClassifierCV
 # the length of the longest time series), and use fit(...) with time series of
 # at least this length, e.g.:
 # >>> reference_length = X_training_lengths.mean()
-# >>> X_tr_1d_filtered, X_tr_lengths_filtered = filter_by_length(X_training_1d, X_training_lengths, reference_length)
-# >>> parameters = fit(X_tr_1d_filtered, X_tr_lengths_filtered, reference_length)
+# >>> X_training_1d_filtered, X_training_lengths_filtered = \
+# >>> filter_by_length(X_training_1d, X_training_lengths, reference_length)
+# >>> parameters = fit(X_training_1d_filtered, X_training_lengths_filtered, reference_length)
 
 parameters = fit(X_training_1d, X_training_lengths)
 
