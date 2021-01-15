@@ -52,7 +52,7 @@ MINIROCKET (including a basic multivariate implementation) is also available thr
 ### [`minirocket_dv.py`](./code/minirocket_dv.py) (MINIROCKET<sub>DV</sub>)
 ### [`softmax.py`](./code/softmax.py) (PyTorch / 10,000+ Training Examples)
 ### [`minirocket_multivariate.py`](./code/minirocket_multivariate.py) (equivalent to [sktime/MiniRocketMultivariate](https://github.com/alan-turing-institute/sktime/blob/master/sktime/transformations/panel/rocket/_minirocket_multivariate.py))
-### [`minirocket_variable.py`](./code/minirocket_multivariate.py) (variable-length input; *experimental*)
+### [`minirocket_variable.py`](./code/minirocket_variable.py) (variable-length input; *experimental*)
 
 ## Important Notes
 
