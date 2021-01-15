@@ -78,6 +78,7 @@ def _fit_biases(X, L, dilations, num_features_per_dilation, quantiles):
 
             for gamma_index in range(9 // 2):
 
+                # thanks to Murtaza Jafferji @murtazajafferji for suggesting this fix
                 if end > 0:
 
                     C_alpha[-end:] = C_alpha[-end:] + A[:end]
@@ -227,6 +228,7 @@ def transform(X, L, parameters):
 
             for gamma_index in range(9 // 2):
 
+                # thanks to Murtaza Jafferji @murtazajafferji for suggesting this fix
                 if end > 0:
 
                     C_alpha[-end:] = C_alpha[-end:] + A[:end]
