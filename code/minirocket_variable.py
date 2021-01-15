@@ -79,6 +79,7 @@ def _fit_biases(X, L, dilations, num_features_per_dilation, quantiles):
             for gamma_index in range(9 // 2):
 
                 if end > 0:
+
                     C_alpha[-end:] = C_alpha[-end:] + A[:end]
                     C_gamma[gamma_index, -end:] = G[:end]
 
@@ -86,8 +87,10 @@ def _fit_biases(X, L, dilations, num_features_per_dilation, quantiles):
 
             for gamma_index in range(9 // 2 + 1, 9):
 
-                C_alpha[:-start] = C_alpha[:-start] + A[start:]
-                C_gamma[gamma_index, :-start] = G[start:]
+                if start < input_length:
+
+                    C_alpha[:-start] = C_alpha[:-start] + A[start:]
+                    C_gamma[gamma_index, :-start] = G[start:]
 
                 start += dilation
 
@@ -101,7 +104,7 @@ def _fit_biases(X, L, dilations, num_features_per_dilation, quantiles):
 
     return biases
 
-def _fit_dilations(input_length, num_features, max_dilations_per_kernel):
+def _fit_dilations(reference_length, num_features, max_dilations_per_kernel):
 
     num_kernels = 84
 
@@ -109,7 +112,7 @@ def _fit_dilations(input_length, num_features, max_dilations_per_kernel):
     true_max_dilations_per_kernel = min(num_features_per_kernel, max_dilations_per_kernel)
     multiplier = num_features_per_kernel / true_max_dilations_per_kernel
 
-    max_exponent = np.log2((input_length - 1) / (9 - 1))
+    max_exponent = np.log2((reference_length - 1) / (9 - 1))
     dilations, num_features_per_dilation = \
     np.unique(np.logspace(0, max_exponent, true_max_dilations_per_kernel, base = 2).astype(np.int32), return_counts = True)
     num_features_per_dilation = (num_features_per_dilation * multiplier).astype(np.int32) # this is a vector
@@ -127,14 +130,20 @@ def _fit_dilations(input_length, num_features, max_dilations_per_kernel):
 def _quantiles(n):
     return np.array([(_ * ((np.sqrt(5) + 1) / 2)) % 1 for _ in range(1, n + 1)], dtype = np.float32)
 
-def fit(X, L, num_features = 10_000, max_dilations_per_kernel = 32):
+def fit(X, L, reference_length = None, num_features = 10_000, max_dilations_per_kernel = 32):
 
-    # change according to whatever is appropriate for your application
-    input_length = L.max()
+    # note in relation to dilation:
+    # * change *reference_length* according to what is appropriate for your
+    #   application, e.g., L.max(), L.mean(), np.median(L)
+    # * use fit(...) with an appropriate subset of time series, e.g., for
+    #   reference_length = L.mean(), call fit(...) using only time series of at
+    #   least length L.mean() [see filter_by_length(...)]
+    if reference_length == None:
+        reference_length = L.max()
 
     num_kernels = 84
 
-    dilations, num_features_per_dilation = _fit_dilations(input_length, num_features, max_dilations_per_kernel)
+    dilations, num_features_per_dilation = _fit_dilations(reference_length, num_features, max_dilations_per_kernel)
 
     num_features_per_kernel = np.sum(num_features_per_dilation)
 
@@ -216,10 +225,10 @@ def transform(X, L, parameters):
             start = dilation
             end = input_length - padding
 
-            
             for gamma_index in range(9 // 2):
 
                 if end > 0:
+
                     C_alpha[-end:] = C_alpha[-end:] + A[:end]
                     C_gamma[gamma_index, -end:] = G[:end]
 
@@ -227,8 +236,10 @@ def transform(X, L, parameters):
 
             for gamma_index in range(9 // 2 + 1, 9):
 
-                C_alpha[:-start] = C_alpha[:-start] + A[start:]
-                C_gamma[gamma_index, :-start] = G[start:]
+                if start < input_length:
+
+                    C_alpha[:-start] = C_alpha[:-start] + A[start:]
+                    C_gamma[gamma_index, :-start] = G[start:]
 
                 start += dilation
 
@@ -255,3 +266,29 @@ def transform(X, L, parameters):
                 feature_index_start = feature_index_end
 
     return features
+
+# return only time series of at least *min_length*
+def filter_by_length(X, L, min_length = 0):
+
+    _L = L[L >= min_length]
+    _X = np.zeros(_L.sum(), dtype = np.float32)
+
+    count = 0
+
+    for example_index in range(len(L)):
+
+        if L[example_index] >= min_length:
+
+            # indices for L
+            b = L[0:example_index + 1].sum()
+            a = b - L[example_index]
+
+            # indices for _L
+            _b = _L[0:count + 1].sum()
+            _a = _b - _L[count]
+
+            _X[_a:_b] = X[a:b]
+
+            count += 1
+
+    return _X, _L
