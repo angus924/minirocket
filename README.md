@@ -165,6 +165,43 @@ X_test_transform = transform(X_test_1d, X_test_lengths, parameters)
 predictions = classifier.predict(X_test_transform)
 ```
 
+**Variable-Length Multivariate Input** (*Experimental*)
+
+```python
+from minirocket_variable_multivariate import fit, transform, filter_by_length
+from sklearn.linear_model import RidgeClassifierCV
+
+[...] # load data, etc.
+
+# note:
+# * input time series do *not* need to be normalised
+# * input data should be np.float32
+
+# special instructions for variable-length input:
+# * concatenate variable-length input time series into a 2d numpy array
+# * provide another 2d array with the lengths of each of the input time series
+# * input data should be np.float32 (as above); lengths should be np.int32
+
+# optionally, use a different reference length when setting dilation (default is
+# the length of the longest time series), and use fit(...) with time series of
+# at least this length, e.g.:
+# >>> reference_length = X_training_lengths.mean()
+# >>> X_training_2d_filtered, X_training_lengths_filtered = \
+# >>> filter_by_length(X_training_2d, X_training_lengths, reference_length)
+# >>> parameters = fit(X_training_2d_filtered, X_training_lengths_filtered, reference_length)
+
+parameters = fit(X_training_2d, X_training_lengths)
+
+X_training_transform = transform(X_training_2d, X_training_lengths, parameters)
+
+classifier = RidgeClassifierCV(alphas = np.logspace(-3, 3, 10), normalize = True)
+classifier.fit(X_training_transform, Y_training)
+
+X_test_transform = transform(X_test_2d, X_test_lengths, parameters)
+
+predictions = classifier.predict(X_test_transform)
+```
+
 ## Acknowledgements
 
 We thank Professor Eamonn Keogh and all the people who have contributed to the UCR time series classification archive.  Figures in our paper showing mean ranks were produced using code from [Ismail Fawaz et al. (2019)](https://github.com/hfawaz/cd-diagram).
