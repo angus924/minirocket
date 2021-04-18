@@ -17,9 +17,15 @@ Please cite as:
 }
 ```
 
+## GPU Implementation \*NEW\*
+
+A GPU implementation of MINIROCKET, developed by Malcolm McLean and Ignacio Oguiza, is available through [`tsai`](https://github.com/timeseriesAI/tsai).  See the [examples](https://github.com/timeseriesAI/tsai/blob/main/tutorial_nbs/10_Time_Series_Classification_and_Regression_with_MiniRocket.ipynb).
+
+Many thanks to Malcolm and Ignacio for their work in developing the GPU implementation and making it part of `tsai`.
+
 ## `sktime`\* / Multivariate
 
-MINIROCKET (including a basic multivariate implementation) is also available through [sktime](https://github.com/alan-turing-institute/sktime).  See the [examples](https://github.com/alan-turing-institute/sktime/blob/master/examples/minirocket.ipynb).
+MINIROCKET (including a basic multivariate implementation) is also available through [`sktime`](https://github.com/alan-turing-institute/sktime).  See the [examples](https://github.com/alan-turing-institute/sktime/blob/master/examples/minirocket.ipynb).
 
 \* *for larger datasets (10,000+ training examples), the `sktime` methods should be integrated with SGD or similar as per [`softmax.py`](./code/softmax.py) (replace calls to `fit(...)` and `transform(...)` from `minirocket.py` with calls to the relevant `sktime` methods as appropriate)*
 
