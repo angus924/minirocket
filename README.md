@@ -1,3 +1,5 @@
+[`ROCKET`](https://github.com/angus924/rocket) &middot; [**`MINIROCKET`**](https://github.com/angus924/minirocket) &middot; [`HYDRA`](https://github.com/angus924/hydra)
+
 # MINIROCKET
 
 ***MINIROCKET: A Very Fast (Almost) Deterministic Transform for Time Series Classification***
