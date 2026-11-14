@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "started_utc": "2026-10-26T15:16:22.106815+00:00",
+  "hardware": {
+    "cpu": "arm64",
+    "architecture": "arm64",
+    "ram_bytes": 17179869184,
+    "os": "Darwin",
+    "os_release": "27.0.0",
+    "macos_version": "27.0.1",
+    "logical_cpus": 10
+  },
+  "software": {
+    "python": "3.14.3",
+    "packages": {
+      "numba": "0.63.1",
+      "llvmlite": "0.46.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1",
+      "aeon": "1.6.0",
+      "threadpoolctl": "3.7.0"
+    },
+    "llvm": [
+      20,
+      1,
+      8
+    ],
+    "blas": {
+      "backend": "accelerate",
+      "version": "unknown"
+    }
+  },
+  "archive": {
+    "name": "UCR 2018 univariate archive, ts edition",
+    "download_url": "https://www.timeseriesclassification.com/aeon-toolkit/Archives/Univariate2018_ts.zip"
+  },
+  "split_policy": "Supplied official TRAIN/TEST splits; seeds repeat fits, not resampled splits",
+  "included_datasets": [
+    "ACSF1",
+    "Adiac",
+    "ArrowHead",
+    "BME",
+    "Beef",
+    "BeetleFly",
+    "BirdChicken",
+    "CBF",
+    "Car",
+    "Chinatown",
+    "ChlorineConcentration",
+    "CinCECGTorso",
+    "Coffee",
+    "Computers",
+    "CricketX",
+    "CricketY",
+    "CricketZ",
+    "Crop",
+    "DiatomSizeReduction",
+    "DistalPhalanxOutlineAgeGroup",
+    "DistalPhalanxOutlineCorrect",
+    "DistalPhalanxTW",
+    "ECG200",
+    "ECG5000",
+    "ECGFiveDays",
+    "EOGHorizontalSignal",
+    "EOGVerticalSignal",
+    "Earthquakes",
+    "ElectricDevices",
+    "EthanolLevel",
+    "FaceAll",
+    "FaceFour",
+    "FacesUCR",
+    "FiftyWords",
+    "Fish",
+    "FordA",
+    "FordB",
+    "FreezerRegularTrain",
+    "FreezerSmallTrain",
+    "Fungi",
+    "GunPoint",
+    "GunPointAgeSpan",
+    "GunPointMaleVersusFemale",
+    "GunPointOldVersusYoung",
+    "Ham",
+    "HandOutlines",
+    "Haptics",
+    "Herring",
+    "HouseTwenty",
+    "InlineSkate",
+    "InsectEPGRegularTrain",
+    "InsectEPGSmallTrain",
+    "InsectWingbeatSound",
+    "ItalyPowerDemand",
+    "LargeKitchenAppliances",
+    "Lightning2",
+    "Lightning7",
+    "Mallat",
+    "Meat",
+    "MedicalImages",
+    "MiddlePhalanxOutlineAgeGroup",
+    "MiddlePhalanxOutlineCorrect",
+    "MiddlePhalanxTW",
+    "MixedShapesRegularTrain",
+    "MixedShapesSmallTrain",
+    "MoteStrain",
+    "NonInvasiveFetalECGThorax1",
+    "NonInvasiveFetalECGThorax2",
+    "OSULeaf",
+    "OliveOil",
+    "PhalangesOutlinesCorrect",
+    "Phoneme",
+    "PigAirwayPressure",
+    "PigArtPressure",
+    "PigCVP",
+    "Plane",
+    "PowerCons",
+    "ProximalPhalanxOutlineAgeGroup",
+    "ProximalPhalanxOutlineCorrect",
+    "ProximalPhalanxTW",
+    "RefrigerationDevices",
+    "Rock",
+    "ScreenType",
+    "SemgHandGenderCh2",
+    "SemgHandMovementCh2",
+    "SemgHandSubjectCh2",
+    "ShapeletSim",
+    "ShapesAll",
+    "SmallKitchenAppliances",
+    "SmoothSubspace",
+    "SonyAIBORobotSurface1",
+    "SonyAIBORobotSurface2",
+    "StarLightCurves",
+    "Strawberry",
+    "SwedishLeaf",
+    "Symbols",
+    "SyntheticControl",
+    "ToeSegmentation1",
+    "ToeSegmentation2",
+    "Trace",
+    "TwoLeadECG",
+    "TwoPatterns",
+    "UMD",
+    "UWaveGestureLibraryAll",
+    "UWaveGestureLibraryX",
+    "UWaveGestureLibraryY",
+    "UWaveGestureLibraryZ",
+    "Wafer",
+    "Wine",
+    "WordSynonyms",
+    "Worms",
+    "WormsTwoClass",
+    "Yoga"
+  ],
+  "excluded_datasets": [
+    {
+      "dataset": "AllGestureWiimoteX",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "AllGestureWiimoteY",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "AllGestureWiimoteZ",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "DodgerLoopDay",
+      "reason": "Input must contain only finite values; missing values require preprocessing"
+    },
+    {
+      "dataset": "DodgerLoopGame",
+      "reason": "Input must contain only finite values; missing values require preprocessing"
+    },
+    {
+      "dataset": "DodgerLoopWeekend",
+      "reason": "Input must contain only finite values; missing values require preprocessing"
+    },
+    {
+      "dataset": "GestureMidAirD1",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "GestureMidAirD2",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "GestureMidAirD3",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "GesturePebbleZ1",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "GesturePebbleZ2",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "MelbournePedestrian",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "PLAID",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "PickupGestureWiimoteZ",
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "dataset": "ShakeGestureWiimoteZ",
+      "reason": "Variable-length series require explicit preprocessing"
+    }
+  ],
+  "discovered_datasets": 128,
+  "configuration": {
+    "budgets": [
+      2500,
+      5000,
+      10000
+    ],
+    "actual_features": [
+      2436,
+      4956,
+      9996
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "repetitions": 3,
+    "batch_size": 256,
+    "dilation_cap": 32,
+    "threads": 1,
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 0,
+    "similarity_tolerance": 0.02,
+    "order_seed": 20261026,
+    "scaler": {
+      "name": "StandardScaler",
+      "with_mean": true,
+      "with_std": true
+    },
+    "classifier": {
+      "name": "RidgeClassifierCV",
+      "alphas": "n_train * logspace(-3,3,10)",
+      "cv": null,
+      "fit_intercept": true,
+      "class_weight": null
+    }
+  },
+  "methodology_version": 1,
+  "measurement_seconds": 11668.895700082998,
+  "runtime_validation": {
+    "checked_cases": 2034,
+    "effective_numba_threads": [
+      1
+    ],
+    "exposed_libraries": [
+      {
+        "backend": "openmp",
+        "version": null,
+        "threads": 1
+      }
+    ],
+    "requested_threads": 1,
+    "all_cache_hits_and_zero_compile_misses": true,
+    "blas_thread_note": "Accelerate actual thread counts may be opaque; environment limit requested before worker startup"
+  },
+  "completed_utc": "2026-10-26T18:30:51.469557+00:00"
+}

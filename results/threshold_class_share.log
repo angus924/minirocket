@@ -1,0 +1,196 @@
+dataset                         group        series classes  eta2 true  shuffled
+ACSF1                           imbalanced      100      10      0.471     0.092
+Adiac                           imbalanced       89      26      0.747     0.286
+
+Skipping AllGestureWiimoteX
+  Variable-length series require explicit preprocessing
+
+Skipping AllGestureWiimoteY
+  Variable-length series require explicit preprocessing
+
+Skipping AllGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+ArrowHead                       small            36       3      0.332     0.046
+BME                             small            30       3      0.307     0.049
+Beef                            small            30       5      0.166     0.143
+BeetleFly                       small            20       2      0.184     0.033
+BirdChicken                     small            20       2      0.138     0.035
+CBF                             small            30       3      0.395     0.052
+Car                             imbalanced       60       4      0.281     0.041
+Chinatown                       small            20       2      0.141     0.026
+ChlorineConcentration           imbalanced      100       3      0.071     0.016
+CinCECGTorso                    imbalanced       40       4      0.191     0.069
+Coffee                          small            28       2      0.171     0.021
+Computers                       rest            100       2      0.058     0.006
+CricketX                        imbalanced      100      12      0.408     0.105
+CricketY                        imbalanced      100      12      0.330     0.104
+CricketZ                        imbalanced      100      12      0.340     0.107
+Crop                            imbalanced       98      22      0.612     0.211
+DiatomSizeReduction             imbalanced       15       3      0.588     0.132
+DistalPhalanxOutlineAgeGroup    imbalanced      100       3      0.378     0.023
+DistalPhalanxOutlineCorrect     rest            100       2      0.014     0.003
+DistalPhalanxTW                 imbalanced      100       6      0.772     0.044
+
+Skipping DodgerLoopDay
+  Input must contain only finite values; missing values require preprocessing
+
+Skipping DodgerLoopGame
+  Input must contain only finite values; missing values require preprocessing
+
+Skipping DodgerLoopWeekend
+  Input must contain only finite values; missing values require preprocessing
+ECG200                          rest            100       2      0.075     0.005
+ECG5000                         imbalanced      100       3      0.250     0.015
+ECGFiveDays                     small            23       2      0.111     0.029
+EOGHorizontalSignal             imbalanced      100      12      0.293     0.109
+EOGVerticalSignal               imbalanced      100      12      0.108     0.100
+Earthquakes                     imbalanced      100       2      0.033     0.006
+ElectricDevices                 imbalanced       99       6      0.354     0.050
+EthanolLevel                    rest            100       4      0.046     0.025
+FaceAll                         imbalanced      100      14      0.437     0.128
+FaceFour                        imbalanced       24       4      0.270     0.124
+FacesUCR                        imbalanced      100      14      0.475     0.126
+FiftyWords                      imbalanced       84      22      0.651     0.253
+Fish                            imbalanced      100       7      0.352     0.058
+FordA                           rest            100       2      0.023     0.005
+FordB                           rest            100       2      0.020     0.006
+FreezerRegularTrain             rest            100       2      0.074     0.005
+FreezerSmallTrain               small            28       2      0.173     0.024
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Arya Sahane\Documents\AUTUMN\AITS\Group Project\Final_Minirocket\experiments\threshold_class_share.py", line 131, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Arya Sahane\Documents\AUTUMN\AITS\Group Project\Final_Minirocket\experiments\threshold_class_share.py", line 122, in main
+    **analyse(dataset.X_train[:, 0], dataset.y_train, args.max_series))
+      ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Arya Sahane\Documents\AUTUMN\AITS\Group Project\Final_Minirocket\experiments\threshold_class_share.py", line 81, in analyse
+    values, groups = thresholds_of_every_series(X, num_features)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Arya Sahane\Documents\AUTUMN\AITS\Group Project\Final_Minirocket\experiments\threshold_class_share.py", line 49, in thresholds_of_every_series
+    return np.stack(rows), groups
+           ~~~~~~~~^^^^^^
+  File "C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\numpy\_core\shape_base.py", line 456, in stack
+    raise ValueError('need at least one array to stack')
+ValueError: need at least one array to stack
+dataset                         group        series classes  eta2 true  shuffled
+
+Skipping AllGestureWiimoteX
+  Variable-length series require explicit preprocessing
+
+Skipping AllGestureWiimoteY
+  Variable-length series require explicit preprocessing
+
+Skipping AllGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+
+Skipping DodgerLoopDay
+  Input must contain only finite values; missing values require preprocessing
+
+Skipping DodgerLoopGame
+  Input must contain only finite values; missing values require preprocessing
+
+Skipping DodgerLoopWeekend
+  Input must contain only finite values; missing values require preprocessing
+Fungi                           skipped: fewer than two classes have two or more training series
+
+Skipping GestureMidAirD1
+  Variable-length series require explicit preprocessing
+
+Skipping GestureMidAirD2
+  Variable-length series require explicit preprocessing
+
+Skipping GestureMidAirD3
+  Variable-length series require explicit preprocessing
+
+Skipping GesturePebbleZ1
+  Variable-length series require explicit preprocessing
+
+Skipping GesturePebbleZ2
+  Variable-length series require explicit preprocessing
+GunPoint                        small            50       2      0.136     0.009
+GunPointAgeSpan                 rest            100       2      0.065     0.008
+GunPointMaleVersusFemale        rest            100       2      0.045     0.010
+GunPointOldVersusYoung          rest            100       2      0.465     0.006
+Ham                             rest            100       2      0.020     0.006
+HandOutlines                    rest            100       2      0.096     0.007
+Haptics                         imbalanced      100       5      0.146     0.035
+Herring                         small            64       2      0.008     0.007
+HouseTwenty                     small            40       2      0.039     0.014
+InlineSkate                     imbalanced      100       7      0.139     0.053
+InsectEPGRegularTrain           imbalanced       62       3      0.332     0.021
+InsectEPGSmallTrain             imbalanced       17       3      0.395     0.097
+InsectWingbeatSound             imbalanced      100      11      0.330     0.098
+ItalyPowerDemand                small            67       2      0.078     0.009
+LargeKitchenAppliances          rest            100       3      0.032     0.016
+Lightning2                      small            60       2      0.065     0.010
+Lightning7                      imbalanced       70       7      0.485     0.080
+Mallat                          imbalanced       55       8      0.623     0.129
+Meat                            small            60       3      0.484     0.029
+MedicalImages                   imbalanced      100       9      0.259     0.081
+
+Skipping MelbournePedestrian
+  Variable-length series require explicit preprocessing
+MiddlePhalanxOutlineAgeGroup    imbalanced      100       3      0.365     0.024
+MiddlePhalanxOutlineCorrect     rest            100       2      0.008     0.008
+MiddlePhalanxTW                 imbalanced      100       6      0.493     0.041
+MixedShapesRegularTrain         rest            100       5      0.263     0.036
+MixedShapesSmallTrain           rest            100       5      0.257     0.033
+MoteStrain                      small            20       2      0.109     0.034
+NonInvasiveFetalECGThorax1      imbalanced       96      33      0.807     0.335
+NonInvasiveFetalECGThorax2      imbalanced       96      33      0.848     0.330
+OSULeaf                         imbalanced      100       6      0.450     0.041
+OliveOil                        imbalanced       30       4      0.403     0.088
+
+Skipping PLAID
+  Variable-length series require explicit preprocessing
+PhalangesOutlinesCorrect        rest            100       2      0.009     0.007
+Phoneme                         imbalanced       95      24      0.351     0.241
+
+Skipping PickupGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+PigAirwayPressure               imbalanced       96      48      0.739     0.503
+PigArtPressure                  imbalanced       96      48      0.912     0.496
+PigCVP                          imbalanced       96      48      0.601     0.482
+Plane                           imbalanced      100       7      0.860     0.056
+PowerCons                       rest            100       2      0.290     0.008
+ProximalPhalanxOutlineAgeGroup  imbalanced      100       3      0.321     0.014
+ProximalPhalanxOutlineCorrect   rest            100       2      0.036     0.009
+ProximalPhalanxTW               imbalanced      100       6      0.628     0.042
+RefrigerationDevices            rest            100       3      0.026     0.015
+Rock                            small            20       4      0.730     0.142
+ScreenType                      rest            100       3      0.021     0.014
+SemgHandGenderCh2               rest            100       2      0.001     0.010
+SemgHandMovementCh2             imbalanced      100       6      0.545     0.047
+SemgHandSubjectCh2              rest            100       5      0.094     0.050
+
+Skipping ShakeGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+ShapeletSim                     small            20       2      0.046     0.025
+ShapesAll                       imbalanced       78      31      0.838     0.384
+SmallKitchenAppliances          rest            100       3      0.050     0.022
+SmoothSubspace                  rest            100       3      0.140     0.014
+SonyAIBORobotSurface1           small            20       2      0.140     0.037
+SonyAIBORobotSurface2           small            27       2      0.082     0.019
+StarLightCurves                 imbalanced      100       3      0.289     0.020
+Strawberry                      rest            100       2      0.020     0.006
+SwedishLeaf                     imbalanced      100      15      0.663     0.141
+Symbols                         imbalanced       25       6      0.962     0.201
+SyntheticControl                imbalanced      100       6      0.711     0.047
+ToeSegmentation1                small            40       2      0.036     0.015
+ToeSegmentation2                small            36       2      0.128     0.018
+Trace                           rest            100       4      0.855     0.033
+TwoLeadECG                      small            23       2      0.124     0.020
+TwoPatterns                     rest            100       4      0.126     0.025
+UMD                             small            36       3      0.263     0.043
+UWaveGestureLibraryAll          imbalanced      100       8      0.483     0.066
+UWaveGestureLibraryX            imbalanced      100       8      0.456     0.070
+UWaveGestureLibraryY            imbalanced      100       8      0.415     0.071
+UWaveGestureLibraryZ            imbalanced      100       8      0.419     0.066
+Wafer                           imbalanced      100       2      0.009     0.005
+Wine                            small            57       2      0.011     0.013
+WordSynonyms                    imbalanced       92      15      0.384     0.152
+Worms                           imbalanced      100       5      0.290     0.032
+WormsTwoClass                   rest            100       2      0.006     0.006
+Yoga                            rest            100       2      0.005     0.005

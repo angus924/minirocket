@@ -1,0 +1,75 @@
+{
+  "created_at_utc": "2026-11-06T23:23:32.986687+00:00",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.3.5",
+    "numba": "0.63.1",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "aeon": "1.5.0"
+  },
+  "configuration": {
+    "data": "./data/Univariate_ts/",
+    "output_dir": "results\\group_pruning_pilot",
+    "datasets": [
+      "GunPoint",
+      "ECG200",
+      "Beef",
+      "Computers",
+      "Wafer"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "bias_strategies": [
+      "original",
+      "uniform",
+      "stratified"
+    ],
+    "keep_fractions": [
+      1.0,
+      0.5,
+      0.2
+    ],
+    "scorers": [
+      "ridge",
+      "filter"
+    ],
+    "feature_count": 10000,
+    "examples_per_group": 1,
+    "drop_fraction": 0.2,
+    "max_dilations_per_kernel": 32,
+    "transform_repetitions": 3,
+    "resume": false
+  },
+  "split_policy": "Supplied train/test splits; seeds repeat fits, not resampled splits",
+  "timing_policy": "Exclude dataset I/O, fingerprinting, imports and train-only JIT warmup",
+  "memory_policy": "NumPy parameter bytes and dense feature bytes; not peak RSS",
+  "datasets": [
+    {
+      "name": "GunPoint",
+      "fingerprint": "6100a35534dc2557438719dddac5adb6ed573e94162872cc50dd164b2666f07b"
+    },
+    {
+      "name": "ECG200",
+      "fingerprint": "82afcbc626835573308a258ede52f114e12b8ee492193be5108db86afc5d458b"
+    },
+    {
+      "name": "Beef",
+      "fingerprint": "bcab201f6c294e7b1222520a5a7ce803931b453761b4907fe851fef02203a8dd"
+    },
+    {
+      "name": "Computers",
+      "fingerprint": "f0c4a6c97fa5f02879ff03af9cacdfa6621208208505c72a29526af077a106fe"
+    },
+    {
+      "name": "Wafer",
+      "fingerprint": "1873653837698ec1f811a6597c1d8fffa414e26eeac7fb883ab982992894cf97"
+    }
+  ],
+  "skipped_datasets": [],
+  "protocol": "full layout fitted once; ranking on TRAIN only; classifier refit on kept TRAIN columns",
+  "csv": "measurements.csv"
+}

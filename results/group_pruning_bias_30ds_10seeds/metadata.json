@@ -1,0 +1,205 @@
+{
+  "created_at_utc": "2026-11-07T02:38:17.884215+00:00",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.3.5",
+    "numba": "0.63.1",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "aeon": "1.5.0"
+  },
+  "configuration": {
+    "data": "./data/Univariate_ts/",
+    "output_dir": "results\\group_pruning_bias_30ds_10seeds",
+    "datasets": [
+      "ACSF1",
+      "CricketY",
+      "ECG5000",
+      "FacesUCR",
+      "InsectEPGRegularTrain",
+      "MiddlePhalanxOutlineAgeGroup",
+      "Phoneme",
+      "SemgHandMovementCh2",
+      "UWaveGestureLibraryAll",
+      "Worms",
+      "ArrowHead",
+      "BeetleFly",
+      "Chinatown",
+      "ECGFiveDays",
+      "Herring",
+      "Lightning2",
+      "Rock",
+      "SonyAIBORobotSurface1",
+      "ToeSegmentation2",
+      "Wine",
+      "Computers",
+      "EthanolLevel",
+      "FreezerRegularTrain",
+      "Ham",
+      "MiddlePhalanxOutlineCorrect",
+      "PhalangesOutlinesCorrect",
+      "RefrigerationDevices",
+      "SmallKitchenAppliances",
+      "Trace",
+      "Yoga"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "bias_strategies": [
+      "original",
+      "uniform",
+      "stratified"
+    ],
+    "keep_fractions": [
+      1.0
+    ],
+    "scorers": [
+      "ridge"
+    ],
+    "feature_count": 10000,
+    "examples_per_group": 1,
+    "drop_fraction": 0.2,
+    "max_dilations_per_kernel": 32,
+    "transform_repetitions": 3,
+    "resume": false
+  },
+  "split_policy": "Supplied train/test splits; seeds repeat fits, not resampled splits",
+  "timing_policy": "Exclude dataset I/O, fingerprinting, imports and train-only JIT warmup",
+  "memory_policy": "NumPy parameter bytes and dense feature bytes; not peak RSS",
+  "datasets": [
+    {
+      "name": "ACSF1",
+      "fingerprint": "755213e9c10628c082d9330495e8e25775ca5a6a4c351ba7c3f318ec750e79dc"
+    },
+    {
+      "name": "CricketY",
+      "fingerprint": "5fb73bceda49b4b33475821dd4ae160b4a0fb039c3b7ad112927aa597d45ee3c"
+    },
+    {
+      "name": "ECG5000",
+      "fingerprint": "d5c7c224376ff63ff13497c86058fa6c45046f40443e893959b4917279ac759b"
+    },
+    {
+      "name": "FacesUCR",
+      "fingerprint": "f18f5acf49d01ce9a925671edfe4d065fe6c54757de3a37c3cdee650df9594ce"
+    },
+    {
+      "name": "InsectEPGRegularTrain",
+      "fingerprint": "0bbf971209b204d37810192929f2da3e53478f29f14d3dbf7837926b43c4840b"
+    },
+    {
+      "name": "MiddlePhalanxOutlineAgeGroup",
+      "fingerprint": "0d436485d1060ccbd52124a9f39666ddd3440f5c20bbb4c8b1e3e7e0f773197e"
+    },
+    {
+      "name": "Phoneme",
+      "fingerprint": "8ce8a2a4158c0f9ee21ad2c205876d6ef603ce7e83ee08e729132292dae16970"
+    },
+    {
+      "name": "SemgHandMovementCh2",
+      "fingerprint": "079eac04f3e68738fde1ba9d2d93dbe08dcc1c250fd82d4e8856d27040e2a7a3"
+    },
+    {
+      "name": "UWaveGestureLibraryAll",
+      "fingerprint": "b8fec1c8a04b3be233b44bdc9ded2a1ee8f04735bfaefde78ed0d4c18867bf31"
+    },
+    {
+      "name": "Worms",
+      "fingerprint": "af4e674cb96fb556aaacafcc792e73c1497a90be9cfef4df56301ea8606145c2"
+    },
+    {
+      "name": "ArrowHead",
+      "fingerprint": "56454b389f66506c713c69698004605e24a1b215881458e42be2be99ff2ddb55"
+    },
+    {
+      "name": "BeetleFly",
+      "fingerprint": "9c3df5881f42221a1dc2e933462b14f046484943dc09ae7913d90e1c77a2f8fe"
+    },
+    {
+      "name": "Chinatown",
+      "fingerprint": "42feb7428569229fa3acbf48293f61e8804ef3da7e7db2425d4a8bd31d3b754e"
+    },
+    {
+      "name": "ECGFiveDays",
+      "fingerprint": "e77ac160d9d1f590c7057b55f9e454adf88cc435c5aab69dc41155e311320ff0"
+    },
+    {
+      "name": "Herring",
+      "fingerprint": "ddecf9a9a27eb09a85b79d62e8988a45613b4d25c3072cc83ad0ab312b25b3f4"
+    },
+    {
+      "name": "Lightning2",
+      "fingerprint": "8643943813793071eb47186384f8c6c7fd030df4c5b57f0312114d8fe0022404"
+    },
+    {
+      "name": "Rock",
+      "fingerprint": "288b6b4a34d9a2e93530bc096b3d17417dbd7a606199ce4be9c8b5d841ad909b"
+    },
+    {
+      "name": "SonyAIBORobotSurface1",
+      "fingerprint": "33c4601b4367fcd767f30b9b6d01d67efed4c04ec0807c060e41d92896132595"
+    },
+    {
+      "name": "ToeSegmentation2",
+      "fingerprint": "9b2dd4c37c71e9c9eca14545031bf81449346e4bd6faa1daa4032e4182abad3f"
+    },
+    {
+      "name": "Wine",
+      "fingerprint": "144ef31534bc2477c732dd4fb35d52a12e5a2ff001762423e6544fdf6a830535"
+    },
+    {
+      "name": "Computers",
+      "fingerprint": "f0c4a6c97fa5f02879ff03af9cacdfa6621208208505c72a29526af077a106fe"
+    },
+    {
+      "name": "EthanolLevel",
+      "fingerprint": "c3c15f3d1ba7cb4a01f3eea8f4b1fecf7994cba7a9bf16c4f08715fb4c33c8a9"
+    },
+    {
+      "name": "FreezerRegularTrain",
+      "fingerprint": "4c57db4ee55b830c43b1bc150b9b0616cc171178beb2c2f00a2fb4b3a89fb3f5"
+    },
+    {
+      "name": "Ham",
+      "fingerprint": "2c3998e8eb2c7246eb09a5a6ccacf58564d8f51c10732bff0fb2680e439a87a1"
+    },
+    {
+      "name": "MiddlePhalanxOutlineCorrect",
+      "fingerprint": "be249e263d8f69742a7099a0e72dc5ca658d2e741266fd4f357e0c2eca6e48f7"
+    },
+    {
+      "name": "PhalangesOutlinesCorrect",
+      "fingerprint": "7712cb1dcbb90d09c6d9f6d1ea876b17ff5a4cb4febf877a47d72988a3de90a5"
+    },
+    {
+      "name": "RefrigerationDevices",
+      "fingerprint": "67f678c99e39f2a8617d62a837498ba51796e531ba441f6109c0b050db7f2f8d"
+    },
+    {
+      "name": "SmallKitchenAppliances",
+      "fingerprint": "e8a1853c98fb8c011aa80f157d11373cff60cf4adc14b53cd717a59409c53c86"
+    },
+    {
+      "name": "Trace",
+      "fingerprint": "cb366a7f298d26ad3d2598b1ac7364303d7d034aa930666b0a9074ef82f29df0"
+    },
+    {
+      "name": "Yoga",
+      "fingerprint": "308db1c6400902e5224c591e74239d1eb21cc93622c22a5b6e9647fad7082f64"
+    }
+  ],
+  "skipped_datasets": [],
+  "protocol": "full layout fitted once; ranking on TRAIN only; classifier refit on kept TRAIN columns",
+  "csv": "measurements.csv"
+}

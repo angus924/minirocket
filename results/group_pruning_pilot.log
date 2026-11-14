@@ -1,0 +1,300 @@
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [2583 7882 7984 8547 8560 8754 8809 8814 8882 8887 8900 8929 8942 9021
+ 9063 9069 9071 9089 9094 9107 9123 9129 9131 9154 9178 9183 9185 9254
+ 9259 9278 9288 9301 9314 9318 9320 9338 9342 9356 9361 9385 9392 9402
+ 9433 9434 9439 9450 9463 9503 9508 9509 9513 9525 9527 9531 9555 9563
+ 9568 9574 9581 9592 9599 9609 9634 9641 9652 9659 9687 9688 9701 9712
+ 9717 9719 9741 9744 9746 9757 9758 9762 9763 9769 9775 9780 9781 9798
+ 9800 9812 9817 9822 9823 9830 9835 9841 9848 9859 9866 9877 9883 9888
+ 9889 9890 9894 9895 9907 9908 9913 9924 9936 9937 9938 9942 9944 9949
+ 9950 9955 9968 9973] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [2583 7882 7984 8547 8560 8754 8809 8814 8882 8887 8900 8929 8942 9021
+ 9063 9069 9071 9089 9094 9107 9123 9129 9131 9154 9178 9183 9185 9254
+ 9259 9278 9288 9301 9314 9318 9320 9338 9342 9356 9361 9385 9392 9402
+ 9433 9434 9439 9450 9463 9503 9508 9509 9513 9525 9527 9531 9555 9563
+ 9568 9574 9581 9592 9599 9609 9634 9641 9652 9659 9687 9688 9701 9712
+ 9717 9719 9741 9744 9746 9757 9758 9762 9763 9769 9775 9780 9781 9798
+ 9800 9812 9817 9822 9823 9830 9835 9841 9848 9859 9866 9877 9883 9888
+ 9889 9890 9894 9895 9907 9908 9913 9924 9936 9937 9938 9942 9944 9949
+ 9950 9955 9968 9973] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+GunPoint seed=0 original done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [  54 2583 4934 7374 7573 7628 7882 7984 8212 8547 8560 8704 8754 8809
+ 8814 8882 8887 8900 8929 8942 9003 9021 9034 9071 9089 9094 9107 9129
+ 9131 9154 9178 9183 9185 9196 9254 9259 9278 9288 9301 9306 9314 9320
+ 9342 9356 9361 9385 9392 9402 9408 9433 9434 9439 9450 9463 9503 9508
+ 9509 9527 9531 9563 9568 9574 9575 9581 9592 9599 9634 9640 9641 9659
+ 9664 9687 9688 9693 9701 9712 9717 9719 9741 9744 9746 9757 9758 9762
+ 9763 9764 9775 9780 9781 9787 9798 9800 9806 9812 9817 9822 9823 9829
+ 9841 9847 9848 9859 9866 9877 9882 9883 9888 9889 9890 9894 9895 9900
+ 9907 9908 9913 9932 9936 9937 9938 9942 9944 9949 9950 9955 9967 9968
+ 9973 9979 9984] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [  54 2583 4934 7374 7573 7628 7882 7984 8212 8547 8560 8704 8754 8809
+ 8814 8882 8887 8900 8929 8942 9003 9021 9034 9071 9089 9094 9107 9129
+ 9131 9154 9178 9183 9185 9196 9254 9259 9278 9288 9301 9306 9314 9320
+ 9342 9356 9361 9385 9392 9402 9408 9433 9434 9439 9450 9463 9503 9508
+ 9509 9527 9531 9563 9568 9574 9575 9581 9592 9599 9634 9640 9641 9659
+ 9664 9687 9688 9693 9701 9712 9717 9719 9741 9744 9746 9757 9758 9762
+ 9763 9764 9775 9780 9781 9787 9798 9800 9806 9812 9817 9822 9823 9829
+ 9841 9847 9848 9859 9866 9877 9882 9883 9888 9889 9890 9894 9895 9900
+ 9907 9908 9913 9932 9936 9937 9938 9942 9944 9949 9950 9955 9967 9968
+ 9973 9979 9984] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+GunPoint seed=0 uniform done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [  54  342 7882 8547 8704 8738 8809 8814 8882 8887 8900 8929 8942 9003
+ 9021 9069 9071 9089 9094 9107 9129 9131 9154 9178 9183 9185 9196 9225
+ 9254 9259 9260 9270 9278 9288 9295 9301 9314 9318 9320 9338 9356 9361
+ 9385 9386 9392 9402 9408 9434 9439 9450 9463 9508 9509 9513 9527 9531
+ 9563 9568 9569 9574 9581 9592 9599 9609 9634 9640 9641 9652 9659 9687
+ 9688 9693 9701 9717 9741 9744 9746 9757 9758 9762 9763 9769 9775 9780
+ 9781 9798 9800 9806 9812 9817 9822 9823 9829 9841 9847 9848 9859 9877
+ 9883 9888 9889 9890 9894 9895 9907 9908 9913 9924 9932 9936 9937 9938
+ 9942 9944 9949 9950 9954 9955 9968 9973] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [  54  342 7882 8547 8704 8738 8809 8814 8882 8887 8900 8929 8942 9003
+ 9021 9069 9071 9089 9094 9107 9129 9131 9154 9178 9183 9185 9196 9225
+ 9254 9259 9260 9270 9278 9288 9295 9301 9314 9318 9320 9338 9356 9361
+ 9385 9386 9392 9402 9408 9434 9439 9450 9463 9508 9509 9513 9527 9531
+ 9563 9568 9569 9574 9581 9592 9599 9609 9634 9640 9641 9652 9659 9687
+ 9688 9693 9701 9717 9741 9744 9746 9757 9758 9762 9763 9769 9775 9780
+ 9781 9798 9800 9806 9812 9817 9822 9823 9829 9841 9847 9848 9859 9877
+ 9883 9888 9889 9890 9894 9895 9907 9908 9913 9924 9932 9936 9937 9938
+ 9942 9944 9949 9950 9954 9955 9968 9973] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+GunPoint seed=0 stratified done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [2151 6442 6599 7073 7581 7628 7882 7984 8547 8809 8814 8882 8887 8900
+ 8929 8942 9003 9063 9069 9071 9081 9089 9094 9107 9123 9131 9154 9178
+ 9183 9185 9196 9254 9259 9278 9288 9301 9306 9314 9318 9320 9338 9342
+ 9356 9361 9385 9392 9402 9408 9433 9434 9439 9450 9463 9508 9509 9513
+ 9527 9531 9563 9568 9574 9581 9599 9609 9634 9640 9641 9659 9687 9688
+ 9693 9701 9712 9717 9741 9744 9746 9757 9758 9762 9763 9775 9780 9781
+ 9798 9812 9817 9822 9823 9830 9835 9841 9847 9848 9859 9866 9877 9883
+ 9888 9889 9890 9894 9895 9907 9908 9913 9924 9932 9936 9937 9938 9942
+ 9944 9949 9950 9954 9955 9968 9973 9979 9984 9990] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [2151 6442 6599 7073 7581 7628 7882 7984 8547 8809 8814 8882 8887 8900
+ 8929 8942 9003 9063 9069 9071 9081 9089 9094 9107 9123 9131 9154 9178
+ 9183 9185 9196 9254 9259 9278 9288 9301 9306 9314 9318 9320 9338 9342
+ 9356 9361 9385 9392 9402 9408 9433 9434 9439 9450 9463 9508 9509 9513
+ 9527 9531 9563 9568 9574 9581 9599 9609 9634 9640 9641 9659 9687 9688
+ 9693 9701 9712 9717 9741 9744 9746 9757 9758 9762 9763 9775 9780 9781
+ 9798 9812 9817 9822 9823 9830 9835 9841 9847 9848 9859 9866 9877 9883
+ 9888 9889 9890 9894 9895 9907 9908 9913 9924 9932 9936 9937 9938 9942
+ 9944 9949 9950 9954 9955 9968 9973 9979 9984 9990] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+GunPoint seed=1 original done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [ 164 3638 4989 5078 7573 7882 7984 8547 8717 8738 8754 8814 8882 8887
+ 8900 8929 8942 9003 9021 9069 9071 9081 9094 9107 9123 9131 9154 9178
+ 9183 9185 9196 9254 9259 9260 9278 9288 9306 9314 9318 9320 9338 9356
+ 9361 9385 9392 9402 9408 9416 9433 9434 9439 9450 9463 9495 9508 9509
+ 9513 9527 9531 9555 9563 9568 9569 9574 9581 9592 9599 9609 9615 9634
+ 9640 9641 9652 9659 9664 9687 9688 9693 9701 9712 9717 9725 9741 9746
+ 9757 9758 9762 9763 9769 9775 9780 9781 9787 9793 9798 9800 9817 9822
+ 9823 9829 9835 9841 9848 9859 9866 9877 9883 9888 9889 9890 9894 9895
+ 9900 9907 9908 9913 9936 9937 9938 9942 9944 9949 9950 9955 9968 9973
+ 9984] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [ 164 3638 4989 5078 7573 7882 7984 8547 8717 8738 8754 8814 8882 8887
+ 8900 8929 8942 9003 9021 9069 9071 9081 9094 9107 9123 9131 9154 9178
+ 9183 9185 9196 9254 9259 9260 9278 9288 9306 9314 9318 9320 9338 9356
+ 9361 9385 9392 9402 9408 9416 9433 9434 9439 9450 9463 9495 9508 9509
+ 9513 9527 9531 9555 9563 9568 9569 9574 9581 9592 9599 9609 9615 9634
+ 9640 9641 9652 9659 9664 9687 9688 9693 9701 9712 9717 9725 9741 9746
+ 9757 9758 9762 9763 9769 9775 9780 9781 9787 9793 9798 9800 9817 9822
+ 9823 9829 9835 9841 9848 9859 9866 9877 9883 9888 9889 9890 9894 9895
+ 9900 9907 9908 9913 9936 9937 9938 9942 9944 9949 9950 9955 9968 9973
+ 9984] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+GunPoint seed=1 uniform done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [7628 7882 7984 8327 8547 8704 8754 8809 8814 8882 8887 8900 8929 8942
+ 9021 9069 9071 9081 9089 9094 9107 9123 9129 9131 9141 9154 9183 9185
+ 9196 9254 9259 9260 9278 9288 9306 9314 9320 9356 9361 9385 9392 9402
+ 9408 9416 9433 9434 9439 9450 9463 9503 9508 9509 9513 9527 9531 9563
+ 9568 9569 9574 9581 9592 9599 9634 9641 9659 9687 9688 9693 9701 9712
+ 9717 9741 9744 9746 9757 9758 9762 9763 9769 9775 9780 9781 9787 9798
+ 9800 9812 9817 9822 9823 9830 9841 9847 9848 9859 9866 9877 9883 9888
+ 9889 9890 9894 9895 9907 9908 9913 9924 9932 9936 9937 9938 9942 9944
+ 9949 9950 9955 9968 9973 9979 9990] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [7628 7882 7984 8327 8547 8704 8754 8809 8814 8882 8887 8900 8929 8942
+ 9021 9069 9071 9081 9089 9094 9107 9123 9129 9131 9141 9154 9183 9185
+ 9196 9254 9259 9260 9278 9288 9306 9314 9320 9356 9361 9385 9392 9402
+ 9408 9416 9433 9434 9439 9450 9463 9503 9508 9509 9513 9527 9531 9563
+ 9568 9569 9574 9581 9592 9599 9634 9641 9659 9687 9688 9693 9701 9712
+ 9717 9741 9744 9746 9757 9758 9762 9763 9769 9775 9780 9781 9787 9798
+ 9800 9812 9817 9822 9823 9830 9841 9847 9848 9859 9866 9877 9883 9888
+ 9889 9890 9894 9895 9907 9908 9913 9924 9932 9936 9937 9938 9942 9944
+ 9949 9950 9955 9968 9973 9979 9990] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+GunPoint seed=1 stratified done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [ 609 3824 5188 5311 6154 6942 7115 7128 7374 7717 7777 7827 8052 8272
+ 8437 8992 9149 9285 9311 9327 9356 9369 9372 9424 9479 9492 9717 9722
+ 9730 9735 9785 9803 9814 9819 9827 9833 9838 9856 9861 9874 9898 9911
+ 9958 9971 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [ 609 3824 5188 5311 6154 6942 7115 7128 7374 7717 7777 7827 8052 8272
+ 8437 8992 9149 9285 9311 9327 9356 9369 9372 9424 9479 9492 9717 9722
+ 9730 9735 9785 9803 9814 9819 9827 9833 9838 9856 9861 9874 9898 9911
+ 9958 9971 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+ECG200 seed=0 original done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [ 465 3049 3282 3392 3824 4112 5188 5222 5256 5311 6010 6319 6531 6942
+ 7099 7115 7230 7374 7777 7984 8052 8272 8327 8437 8594 8738 8814 8900
+ 8992 9141 9149 9246 9285 9311 9356 9369 9372 9398 9424 9479 9492 9623
+ 9717 9722 9730 9735 9759 9785 9803 9814 9819 9827 9838 9856 9861 9971
+ 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [ 465 3049 3282 3392 3824 4112 5188 5222 5256 5311 6010 6319 6531 6942
+ 7099 7115 7230 7374 7777 7984 8052 8272 8327 8437 8594 8738 8814 8900
+ 8992 9141 9149 9246 9285 9311 9356 9369 9372 9398 9424 9479 9492 9623
+ 9717 9722 9730 9735 9759 9785 9803 9814 9819 9827 9838 9856 9861 9971
+ 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+ECG200 seed=0 uniform done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [5188 5222 5277 6010 6319 7086 7099 7115 7162 7230 7374 7387 7777 8052
+ 8157 8272 8327 8382 8437 8505 8738 8827 8937 9047 9081 9149 9272 9285
+ 9298 9356 9369 9424 9437 9479 9492 9704 9717 9722 9730 9785 9803 9808
+ 9814 9819 9827 9838 9856 9861 9874 9898 9971] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [5188 5222 5277 6010 6319 7086 7099 7115 7162 7230 7374 7387 7777 8052
+ 8157 8272 8327 8382 8437 8505 8738 8827 8937 9047 9081 9149 9272 9285
+ 9298 9356 9369 9424 9437 9479 9492 9704 9717 9722 9730 9785 9803 9808
+ 9814 9819 9827 9838 9856 9861 9874 9898 9971] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+ECG200 seed=0 stratified done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [3659 3858 4112 4900 5222 5277 6010 6154 6319 6408 6942 7052 7717 7764
+ 8115 8272 8327 8437 8510 8738 8772 8785 8992 9149 9154 9272 9285 9356
+ 9369 9372 9424 9479 9675 9704 9717 9722 9759 9785 9803 9808 9814 9819
+ 9827 9838 9843 9856 9861 9869 9898 9911 9958 9971 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [3659 3858 4112 4900 5222 5277 6010 6154 6319 6408 6942 7052 7717 7764
+ 8115 8272 8327 8437 8510 8738 8772 8785 8992 9149 9154 9272 9285 9356
+ 9369 9372 9424 9479 9675 9704 9717 9722 9759 9785 9803 9808 9814 9819
+ 9827 9838 9843 9856 9861 9869 9898 9911 9958 9971 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+ECG200 seed=1 original done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [ 465 2350 2583 3049 5188 5222 6010 6154 6319 7086 7128 7230 7374 7539
+ 7984 8272 8327 8437 8505 8738 8772 8785 8900 9149 9246 9285 9311 9356
+ 9369 9372 9424 9479 9492 9704 9717 9722 9730 9759 9785 9803 9814 9819
+ 9827 9833 9838 9856 9861 9874 9898 9971 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [ 465 2350 2583 3049 5188 5222 6010 6154 6319 7086 7128 7230 7374 7539
+ 7984 8272 8327 8437 8505 8738 8772 8785 8900 9149 9246 9285 9311 9356
+ 9369 9372 9424 9479 9492 9704 9717 9722 9730 9759 9785 9803 9814 9819
+ 9827 9833 9838 9856 9861 9874 9898 9971 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+ECG200 seed=1 uniform done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [2583 3316 3782 4078 4858 5222 5311 6154 6319 6942 7115 7649 7751 7764
+ 7777 8052 8115 8183 8272 8327 8437 8505 8827 9047 9149 9154 9285 9356
+ 9369 9372 9398 9424 9437 9479 9492 9704 9717 9722 9730 9767 9803 9814
+ 9819 9821 9827 9833 9838 9856 9861 9898 9958 9971 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [2583 3316 3782 4078 4858 5222 5311 6154 6319 6942 7115 7649 7751 7764
+ 7777 8052 8115 8183 8272 8327 8437 8505 8827 9047 9149 9154 9285 9356
+ 9369 9372 9398 9424 9437 9479 9492 9704 9717 9722 9730 9767 9803 9814
+ 9819 9821 9827 9833 9838 9856 9861 9898 9958 9971 9989] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+ECG200 seed=1 stratified done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [1219 7785 8243 8319 8463 8683 8746 8937 9437 9492 9594 9649 9678 9691
+ 9748 9753 9755 9759 9765 9767 9771 9772 9778 9783 9785 9796 9801 9809
+ 9814 9832 9849 9850 9856 9861 9862 9863 9869 9874 9879 9881 9892 9898
+ 9903 9916 9921 9923 9927 9945 9958 9959 9971 9982 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [1219 7785 8243 8319 8463 8683 8746 8937 9437 9492 9594 9649 9678 9691
+ 9748 9753 9755 9759 9765 9767 9771 9772 9778 9783 9785 9796 9801 9809
+ 9814 9832 9849 9850 9856 9861 9862 9863 9869 9874 9879 9881 9892 9898
+ 9903 9916 9921 9923 9927 9945 9958 9959 9971 9982 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Beef seed=0 original done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [8463 8759 9437 9492 9529 9547 9594 9678 9691 9748 9749 9753 9755 9759
+ 9767 9771 9772 9778 9783 9785 9796 9801 9809 9814 9820 9832 9843 9849
+ 9850 9856 9861 9862 9863 9869 9879 9881 9903 9921 9923 9927 9945 9958
+ 9959 9971 9982 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [8463 8759 9437 9492 9529 9547 9594 9678 9691 9748 9749 9753 9755 9759
+ 9767 9771 9772 9778 9783 9785 9796 9801 9809 9814 9820 9832 9843 9849
+ 9850 9856 9861 9862 9863 9869 9879 9881 9903 9921 9923 9927 9945 9958
+ 9959 9971 9982 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Beef seed=0 uniform done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [1363 8319 8463 8484 8594 8746 8759 9115 9335 9437 9492 9547 9594 9649
+ 9662 9678 9691 9720 9748 9753 9755 9759 9767 9771 9772 9778 9783 9785
+ 9796 9801 9809 9814 9832 9843 9849 9850 9856 9861 9862 9863 9869 9879
+ 9881 9885 9892 9898 9903 9916 9921 9923 9927 9945 9971 9982 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [1363 8319 8463 8484 8594 8746 8759 9115 9335 9437 9492 9547 9594 9649
+ 9662 9678 9691 9720 9748 9753 9755 9759 9767 9771 9772 9778 9783 9785
+ 9796 9801 9809 9814 9832 9843 9849 9850 9856 9861 9862 9863 9869 9879
+ 9881 9885 9892 9898 9903 9916 9921 9923 9927 9945 9971 9982 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Beef seed=0 stratified done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [7785 8683 8759 8937 9437 9492 9594 9602 9649 9678 9691 9720 9728 9748
+ 9749 9753 9759 9767 9771 9772 9783 9785 9796 9801 9809 9814 9820 9832
+ 9843 9849 9850 9856 9861 9862 9863 9869 9874 9879 9881 9885 9892 9898
+ 9903 9921 9927 9945 9958 9971 9977 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [7785 8683 8759 8937 9437 9492 9594 9602 9649 9678 9691 9720 9728 9748
+ 9749 9753 9759 9767 9771 9772 9783 9785 9796 9801 9809 9814 9820 9832
+ 9843 9849 9850 9856 9861 9862 9863 9869 9874 9879 9881 9885 9892 9898
+ 9903 9921 9927 9945 9958 9971 9977 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Beef seed=1 original done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [7929 8463 8594 8641 8746 8759 8937 9115 9437 9492 9547 9594 9602 9649
+ 9678 9691 9720 9748 9753 9759 9767 9771 9772 9778 9783 9785 9796 9801
+ 9809 9814 9820 9832 9843 9849 9850 9856 9861 9862 9863 9869 9874 9879
+ 9881 9892 9898 9903 9916 9921 9923 9927 9945 9958 9971 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [7929 8463 8594 8641 8746 8759 8937 9115 9437 9492 9547 9594 9602 9649
+ 9678 9691 9720 9748 9753 9759 9767 9771 9772 9778 9783 9785 9796 9801
+ 9809 9814 9820 9832 9843 9849 9850 9856 9861 9862 9863 9869 9874 9879
+ 9881 9892 9898 9903 9916 9921 9923 9927 9945 9958 9971 9993 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Beef seed=1 uniform done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [1219 9335 9437 9529 9547 9552 9594 9649 9678 9691 9720 9748 9749 9753
+ 9755 9767 9771 9772 9778 9783 9785 9796 9809 9814 9832 9843 9849 9850
+ 9856 9861 9862 9863 9869 9874 9879 9881 9892 9898 9903 9916 9921 9927
+ 9945 9958 9959 9971 9977 9982 9993 9994 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [1219 9335 9437 9529 9547 9552 9594 9649 9678 9691 9720 9748 9749 9753
+ 9755 9767 9771 9772 9778 9783 9785 9796 9809 9814 9832 9843 9849 9850
+ 9856 9861 9862 9863 9869 9874 9879 9881 9892 9898 9903 9916 9921 9927
+ 9945 9958 9959 9971 9977 9982 9993 9994 9995] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Beef seed=1 stratified done
+Computers seed=0 original done
+Computers seed=0 uniform done
+Computers seed=0 stratified done
+Computers seed=1 original done
+Computers seed=1 uniform done
+Computers seed=1 stratified done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Wafer seed=0 original done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Wafer seed=0 uniform done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9225 9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9225 9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Wafer seed=0 stratified done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Wafer seed=1 original done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Wafer seed=1 uniform done
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\Arya Sahane\AppData\Roaming\Python\Python314\site-packages\sklearn\feature_selection\_univariate_selection.py:110: UserWarning: Features [9979] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+Wafer seed=1 stratified done

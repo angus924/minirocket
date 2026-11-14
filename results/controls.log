@@ -1,0 +1,384 @@
+ACSF1 seed=0 done
+ACSF1 seed=1 done
+ACSF1 seed=2 done
+Adiac seed=0 done
+Adiac seed=1 done
+Adiac seed=2 done
+
+Skipping AllGestureWiimoteX
+  Variable-length series require explicit preprocessing
+
+Skipping AllGestureWiimoteY
+  Variable-length series require explicit preprocessing
+
+Skipping AllGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+ArrowHead seed=0 done
+ArrowHead seed=1 done
+ArrowHead seed=2 done
+BME seed=0 done
+BME seed=1 done
+BME seed=2 done
+Beef seed=0 done
+Beef seed=1 done
+Beef seed=2 done
+BeetleFly seed=0 done
+BeetleFly seed=1 done
+BeetleFly seed=2 done
+BirdChicken seed=0 done
+BirdChicken seed=1 done
+BirdChicken seed=2 done
+CBF seed=0 done
+CBF seed=1 done
+CBF seed=2 done
+Car seed=0 done
+Car seed=1 done
+Car seed=2 done
+Chinatown seed=0 done
+Chinatown seed=1 done
+Chinatown seed=2 done
+ChlorineConcentration seed=0 done
+ChlorineConcentration seed=1 done
+ChlorineConcentration seed=2 done
+CinCECGTorso seed=0 done
+CinCECGTorso seed=1 done
+CinCECGTorso seed=2 done
+Coffee seed=0 done
+Coffee seed=1 done
+Coffee seed=2 done
+Computers seed=0 done
+Computers seed=1 done
+Computers seed=2 done
+CricketX seed=0 done
+CricketX seed=1 done
+CricketX seed=2 done
+CricketY seed=0 done
+CricketY seed=1 done
+CricketY seed=2 done
+CricketZ seed=0 done
+CricketZ seed=1 done
+CricketZ seed=2 done
+Crop seed=0 done
+Crop seed=1 done
+Crop seed=2 done
+DiatomSizeReduction seed=0 done
+DiatomSizeReduction seed=1 done
+DiatomSizeReduction seed=2 done
+DistalPhalanxOutlineAgeGroup seed=0 done
+DistalPhalanxOutlineAgeGroup seed=1 done
+DistalPhalanxOutlineAgeGroup seed=2 done
+DistalPhalanxOutlineCorrect seed=0 done
+DistalPhalanxOutlineCorrect seed=1 done
+DistalPhalanxOutlineCorrect seed=2 done
+DistalPhalanxTW seed=0 done
+DistalPhalanxTW seed=1 done
+DistalPhalanxTW seed=2 done
+
+Skipping DodgerLoopDay
+  Input must contain only finite values; missing values require preprocessing
+
+Skipping DodgerLoopGame
+  Input must contain only finite values; missing values require preprocessing
+
+Skipping DodgerLoopWeekend
+  Input must contain only finite values; missing values require preprocessing
+ECG200 seed=0 done
+ECG200 seed=1 done
+ECG200 seed=2 done
+ECG5000 seed=0 done
+ECG5000 seed=1 done
+ECG5000 seed=2 done
+ECGFiveDays seed=0 done
+ECGFiveDays seed=1 done
+ECGFiveDays seed=2 done
+EOGHorizontalSignal seed=0 done
+EOGHorizontalSignal seed=1 done
+EOGHorizontalSignal seed=2 done
+EOGVerticalSignal seed=0 done
+EOGVerticalSignal seed=1 done
+EOGVerticalSignal seed=2 done
+Earthquakes seed=0 done
+Earthquakes seed=1 done
+Earthquakes seed=2 done
+ElectricDevices seed=0 done
+ElectricDevices seed=1 done
+ElectricDevices seed=2 done
+EthanolLevel seed=0 done
+EthanolLevel seed=1 done
+EthanolLevel seed=2 done
+FaceAll seed=0 done
+FaceAll seed=1 done
+FaceAll seed=2 done
+FaceFour seed=0 done
+FaceFour seed=1 done
+FaceFour seed=2 done
+FacesUCR seed=0 done
+FacesUCR seed=1 done
+FacesUCR seed=2 done
+FiftyWords seed=0 done
+FiftyWords seed=1 done
+FiftyWords seed=2 done
+Fish seed=0 done
+Fish seed=1 done
+Fish seed=2 done
+FordA seed=0 done
+FordA seed=1 done
+FordA seed=2 done
+FordB seed=0 done
+FordB seed=1 done
+FordB seed=2 done
+FreezerRegularTrain seed=0 done
+FreezerRegularTrain seed=1 done
+FreezerRegularTrain seed=2 done
+FreezerSmallTrain seed=0 done
+FreezerSmallTrain seed=1 done
+FreezerSmallTrain seed=2 done
+Fungi seed=0 done
+Fungi seed=1 done
+Fungi seed=2 done
+
+Skipping GestureMidAirD1
+  Variable-length series require explicit preprocessing
+
+Skipping GestureMidAirD2
+  Variable-length series require explicit preprocessing
+
+Skipping GestureMidAirD3
+  Variable-length series require explicit preprocessing
+
+Skipping GesturePebbleZ1
+  Variable-length series require explicit preprocessing
+
+Skipping GesturePebbleZ2
+  Variable-length series require explicit preprocessing
+GunPoint seed=0 done
+GunPoint seed=1 done
+GunPoint seed=2 done
+GunPointAgeSpan seed=0 done
+GunPointAgeSpan seed=1 done
+GunPointAgeSpan seed=2 done
+GunPointMaleVersusFemale seed=0 done
+GunPointMaleVersusFemale seed=1 done
+GunPointMaleVersusFemale seed=2 done
+GunPointOldVersusYoung seed=0 done
+GunPointOldVersusYoung seed=1 done
+GunPointOldVersusYoung seed=2 done
+Ham seed=0 done
+Ham seed=1 done
+Ham seed=2 done
+HandOutlines seed=0 done
+HandOutlines seed=1 done
+HandOutlines seed=2 done
+Haptics seed=0 done
+Haptics seed=1 done
+Haptics seed=2 done
+Herring seed=0 done
+Herring seed=1 done
+Herring seed=2 done
+HouseTwenty seed=0 done
+HouseTwenty seed=1 done
+HouseTwenty seed=2 done
+InlineSkate seed=0 done
+InlineSkate seed=1 done
+InlineSkate seed=2 done
+InsectEPGRegularTrain seed=0 done
+InsectEPGRegularTrain seed=1 done
+InsectEPGRegularTrain seed=2 done
+InsectEPGSmallTrain seed=0 done
+InsectEPGSmallTrain seed=1 done
+InsectEPGSmallTrain seed=2 done
+InsectWingbeatSound seed=0 done
+InsectWingbeatSound seed=1 done
+InsectWingbeatSound seed=2 done
+ItalyPowerDemand seed=0 done
+ItalyPowerDemand seed=1 done
+ItalyPowerDemand seed=2 done
+LargeKitchenAppliances seed=0 done
+LargeKitchenAppliances seed=1 done
+LargeKitchenAppliances seed=2 done
+Lightning2 seed=0 done
+Lightning2 seed=1 done
+Lightning2 seed=2 done
+Lightning7 seed=0 done
+Lightning7 seed=1 done
+Lightning7 seed=2 done
+Mallat seed=0 done
+Mallat seed=1 done
+Mallat seed=2 done
+Meat seed=0 done
+Meat seed=1 done
+Meat seed=2 done
+MedicalImages seed=0 done
+MedicalImages seed=1 done
+MedicalImages seed=2 done
+
+Skipping MelbournePedestrian
+  Variable-length series require explicit preprocessing
+MiddlePhalanxOutlineAgeGroup seed=0 done
+MiddlePhalanxOutlineAgeGroup seed=1 done
+MiddlePhalanxOutlineAgeGroup seed=2 done
+MiddlePhalanxOutlineCorrect seed=0 done
+MiddlePhalanxOutlineCorrect seed=1 done
+MiddlePhalanxOutlineCorrect seed=2 done
+MiddlePhalanxTW seed=0 done
+MiddlePhalanxTW seed=1 done
+MiddlePhalanxTW seed=2 done
+MixedShapesRegularTrain seed=0 done
+MixedShapesRegularTrain seed=1 done
+MixedShapesRegularTrain seed=2 done
+MixedShapesSmallTrain seed=0 done
+MixedShapesSmallTrain seed=1 done
+MixedShapesSmallTrain seed=2 done
+MoteStrain seed=0 done
+MoteStrain seed=1 done
+MoteStrain seed=2 done
+NonInvasiveFetalECGThorax1 seed=0 done
+NonInvasiveFetalECGThorax1 seed=1 done
+NonInvasiveFetalECGThorax1 seed=2 done
+NonInvasiveFetalECGThorax2 seed=0 done
+NonInvasiveFetalECGThorax2 seed=1 done
+NonInvasiveFetalECGThorax2 seed=2 done
+OSULeaf seed=0 done
+OSULeaf seed=1 done
+OSULeaf seed=2 done
+OliveOil seed=0 done
+OliveOil seed=1 done
+OliveOil seed=2 done
+
+Skipping PLAID
+  Variable-length series require explicit preprocessing
+PhalangesOutlinesCorrect seed=0 done
+PhalangesOutlinesCorrect seed=1 done
+PhalangesOutlinesCorrect seed=2 done
+Phoneme seed=0 done
+Phoneme seed=1 done
+Phoneme seed=2 done
+
+Skipping PickupGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+PigAirwayPressure seed=0 done
+PigAirwayPressure seed=1 done
+PigAirwayPressure seed=2 done
+PigArtPressure seed=0 done
+PigArtPressure seed=1 done
+PigArtPressure seed=2 done
+PigCVP seed=0 done
+PigCVP seed=1 done
+PigCVP seed=2 done
+Plane seed=0 done
+Plane seed=1 done
+Plane seed=2 done
+PowerCons seed=0 done
+PowerCons seed=1 done
+PowerCons seed=2 done
+ProximalPhalanxOutlineAgeGroup seed=0 done
+ProximalPhalanxOutlineAgeGroup seed=1 done
+ProximalPhalanxOutlineAgeGroup seed=2 done
+ProximalPhalanxOutlineCorrect seed=0 done
+ProximalPhalanxOutlineCorrect seed=1 done
+ProximalPhalanxOutlineCorrect seed=2 done
+ProximalPhalanxTW seed=0 done
+ProximalPhalanxTW seed=1 done
+ProximalPhalanxTW seed=2 done
+RefrigerationDevices seed=0 done
+RefrigerationDevices seed=1 done
+RefrigerationDevices seed=2 done
+Rock seed=0 done
+Rock seed=1 done
+Rock seed=2 done
+ScreenType seed=0 done
+ScreenType seed=1 done
+ScreenType seed=2 done
+SemgHandGenderCh2 seed=0 done
+SemgHandGenderCh2 seed=1 done
+SemgHandGenderCh2 seed=2 done
+SemgHandMovementCh2 seed=0 done
+SemgHandMovementCh2 seed=1 done
+SemgHandMovementCh2 seed=2 done
+SemgHandSubjectCh2 seed=0 done
+SemgHandSubjectCh2 seed=1 done
+SemgHandSubjectCh2 seed=2 done
+
+Skipping ShakeGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+ShapeletSim seed=0 done
+ShapeletSim seed=1 done
+ShapeletSim seed=2 done
+ShapesAll seed=0 done
+ShapesAll seed=1 done
+ShapesAll seed=2 done
+SmallKitchenAppliances seed=0 done
+SmallKitchenAppliances seed=1 done
+SmallKitchenAppliances seed=2 done
+SmoothSubspace seed=0 done
+SmoothSubspace seed=1 done
+SmoothSubspace seed=2 done
+SonyAIBORobotSurface1 seed=0 done
+SonyAIBORobotSurface1 seed=1 done
+SonyAIBORobotSurface1 seed=2 done
+SonyAIBORobotSurface2 seed=0 done
+SonyAIBORobotSurface2 seed=1 done
+SonyAIBORobotSurface2 seed=2 done
+StarLightCurves seed=0 done
+StarLightCurves seed=1 done
+StarLightCurves seed=2 done
+Strawberry seed=0 done
+Strawberry seed=1 done
+Strawberry seed=2 done
+SwedishLeaf seed=0 done
+SwedishLeaf seed=1 done
+SwedishLeaf seed=2 done
+Symbols seed=0 done
+Symbols seed=1 done
+Symbols seed=2 done
+SyntheticControl seed=0 done
+SyntheticControl seed=1 done
+SyntheticControl seed=2 done
+ToeSegmentation1 seed=0 done
+ToeSegmentation1 seed=1 done
+ToeSegmentation1 seed=2 done
+ToeSegmentation2 seed=0 done
+ToeSegmentation2 seed=1 done
+ToeSegmentation2 seed=2 done
+Trace seed=0 done
+Trace seed=1 done
+Trace seed=2 done
+TwoLeadECG seed=0 done
+TwoLeadECG seed=1 done
+TwoLeadECG seed=2 done
+TwoPatterns seed=0 done
+TwoPatterns seed=1 done
+TwoPatterns seed=2 done
+UMD seed=0 done
+UMD seed=1 done
+UMD seed=2 done
+UWaveGestureLibraryAll seed=0 done
+UWaveGestureLibraryAll seed=1 done
+UWaveGestureLibraryAll seed=2 done
+UWaveGestureLibraryX seed=0 done
+UWaveGestureLibraryX seed=1 done
+UWaveGestureLibraryX seed=2 done
+UWaveGestureLibraryY seed=0 done
+UWaveGestureLibraryY seed=1 done
+UWaveGestureLibraryY seed=2 done
+UWaveGestureLibraryZ seed=0 done
+UWaveGestureLibraryZ seed=1 done
+UWaveGestureLibraryZ seed=2 done
+Wafer seed=0 done
+Wafer seed=1 done
+Wafer seed=2 done
+Wine seed=0 done
+Wine seed=1 done
+Wine seed=2 done
+WordSynonyms seed=0 done
+WordSynonyms seed=1 done
+WordSynonyms seed=2 done
+Worms seed=0 done
+Worms seed=1 done
+Worms seed=2 done
+WormsTwoClass seed=0 done
+WormsTwoClass seed=1 done
+WormsTwoClass seed=2 done
+Yoga seed=0 done
+Yoga seed=1 done
+Yoga seed=2 done

@@ -1,0 +1,2 @@
+# Preserve generated CSV bytes for result-package integrity checks.
+results/**/*.csv -text whitespace=cr-at-eol

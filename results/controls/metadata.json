@@ -1,0 +1,273 @@
+{
+  "created_at_utc": "2026-11-07T13:15:30.436806+00:00",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.3.5",
+    "numba": "0.63.1",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "aeon": "1.5.0"
+  },
+  "configuration": {
+    "data": "./data/Univariate_ts/",
+    "output_dir": "results\\controls",
+    "datasets": null,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "keep_fractions": [
+      0.75,
+      0.5,
+      0.3,
+      0.2,
+      0.1
+    ],
+    "transform_repetitions": 3,
+    "resume": false
+  },
+  "split_policy": "Supplied train/test splits; seeds repeat fits, not resampled splits",
+  "timing_policy": "Exclude dataset I/O, fingerprinting, imports and train-only JIT warmup",
+  "memory_policy": "NumPy parameter bytes and dense feature bytes; not peak RSS",
+  "datasets": [
+    "ACSF1",
+    "Adiac",
+    "ArrowHead",
+    "BME",
+    "Beef",
+    "BeetleFly",
+    "BirdChicken",
+    "CBF",
+    "Car",
+    "Chinatown",
+    "ChlorineConcentration",
+    "CinCECGTorso",
+    "Coffee",
+    "Computers",
+    "CricketX",
+    "CricketY",
+    "CricketZ",
+    "Crop",
+    "DiatomSizeReduction",
+    "DistalPhalanxOutlineAgeGroup",
+    "DistalPhalanxOutlineCorrect",
+    "DistalPhalanxTW",
+    "ECG200",
+    "ECG5000",
+    "ECGFiveDays",
+    "EOGHorizontalSignal",
+    "EOGVerticalSignal",
+    "Earthquakes",
+    "ElectricDevices",
+    "EthanolLevel",
+    "FaceAll",
+    "FaceFour",
+    "FacesUCR",
+    "FiftyWords",
+    "Fish",
+    "FordA",
+    "FordB",
+    "FreezerRegularTrain",
+    "FreezerSmallTrain",
+    "Fungi",
+    "GunPoint",
+    "GunPointAgeSpan",
+    "GunPointMaleVersusFemale",
+    "GunPointOldVersusYoung",
+    "Ham",
+    "HandOutlines",
+    "Haptics",
+    "Herring",
+    "HouseTwenty",
+    "InlineSkate",
+    "InsectEPGRegularTrain",
+    "InsectEPGSmallTrain",
+    "InsectWingbeatSound",
+    "ItalyPowerDemand",
+    "LargeKitchenAppliances",
+    "Lightning2",
+    "Lightning7",
+    "Mallat",
+    "Meat",
+    "MedicalImages",
+    "MiddlePhalanxOutlineAgeGroup",
+    "MiddlePhalanxOutlineCorrect",
+    "MiddlePhalanxTW",
+    "MixedShapesRegularTrain",
+    "MixedShapesSmallTrain",
+    "MoteStrain",
+    "NonInvasiveFetalECGThorax1",
+    "NonInvasiveFetalECGThorax2",
+    "OSULeaf",
+    "OliveOil",
+    "PhalangesOutlinesCorrect",
+    "Phoneme",
+    "PigAirwayPressure",
+    "PigArtPressure",
+    "PigCVP",
+    "Plane",
+    "PowerCons",
+    "ProximalPhalanxOutlineAgeGroup",
+    "ProximalPhalanxOutlineCorrect",
+    "ProximalPhalanxTW",
+    "RefrigerationDevices",
+    "Rock",
+    "ScreenType",
+    "SemgHandGenderCh2",
+    "SemgHandMovementCh2",
+    "SemgHandSubjectCh2",
+    "ShapeletSim",
+    "ShapesAll",
+    "SmallKitchenAppliances",
+    "SmoothSubspace",
+    "SonyAIBORobotSurface1",
+    "SonyAIBORobotSurface2",
+    "StarLightCurves",
+    "Strawberry",
+    "SwedishLeaf",
+    "Symbols",
+    "SyntheticControl",
+    "ToeSegmentation1",
+    "ToeSegmentation2",
+    "Trace",
+    "TwoLeadECG",
+    "TwoPatterns",
+    "UMD",
+    "UWaveGestureLibraryAll",
+    "UWaveGestureLibraryX",
+    "UWaveGestureLibraryY",
+    "UWaveGestureLibraryZ",
+    "Wafer",
+    "Wine",
+    "WordSynonyms",
+    "Worms",
+    "WormsTwoClass",
+    "Yoga"
+  ],
+  "skipped_datasets": [
+    {
+      "name": "AllGestureWiimoteX",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\AllGestureWiimoteX\\AllGestureWiimoteX_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\AllGestureWiimoteX\\AllGestureWiimoteX_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "AllGestureWiimoteY",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\AllGestureWiimoteY\\AllGestureWiimoteY_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\AllGestureWiimoteY\\AllGestureWiimoteY_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "AllGestureWiimoteZ",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\AllGestureWiimoteZ\\AllGestureWiimoteZ_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\AllGestureWiimoteZ\\AllGestureWiimoteZ_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "DodgerLoopDay",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\DodgerLoopDay\\DodgerLoopDay_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\DodgerLoopDay\\DodgerLoopDay_TEST.ts"
+      ],
+      "reason": "Input must contain only finite values; missing values require preprocessing"
+    },
+    {
+      "name": "DodgerLoopGame",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\DodgerLoopGame\\DodgerLoopGame_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\DodgerLoopGame\\DodgerLoopGame_TEST.ts"
+      ],
+      "reason": "Input must contain only finite values; missing values require preprocessing"
+    },
+    {
+      "name": "DodgerLoopWeekend",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\DodgerLoopWeekend\\DodgerLoopWeekend_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\DodgerLoopWeekend\\DodgerLoopWeekend_TEST.ts"
+      ],
+      "reason": "Input must contain only finite values; missing values require preprocessing"
+    },
+    {
+      "name": "GestureMidAirD1",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GestureMidAirD1\\GestureMidAirD1_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GestureMidAirD1\\GestureMidAirD1_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "GestureMidAirD2",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GestureMidAirD2\\GestureMidAirD2_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GestureMidAirD2\\GestureMidAirD2_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "GestureMidAirD3",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GestureMidAirD3\\GestureMidAirD3_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GestureMidAirD3\\GestureMidAirD3_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "GesturePebbleZ1",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GesturePebbleZ1\\GesturePebbleZ1_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GesturePebbleZ1\\GesturePebbleZ1_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "GesturePebbleZ2",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GesturePebbleZ2\\GesturePebbleZ2_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\GesturePebbleZ2\\GesturePebbleZ2_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "MelbournePedestrian",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\MelbournePedestrian\\MelbournePedestrian_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\MelbournePedestrian\\MelbournePedestrian_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "PLAID",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\PLAID\\PLAID_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\PLAID\\PLAID_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "PickupGestureWiimoteZ",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\PickupGestureWiimoteZ\\PickupGestureWiimoteZ_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\PickupGestureWiimoteZ\\PickupGestureWiimoteZ_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    },
+    {
+      "name": "ShakeGestureWiimoteZ",
+      "sources": [
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\ShakeGestureWiimoteZ\\ShakeGestureWiimoteZ_TRAIN.ts",
+        "C:\\Users\\Arya Sahane\\Documents\\AUTUMN\\AITS\\Group Project\\Final_Minirocket\\data\\Univariate_ts\\ShakeGestureWiimoteZ\\ShakeGestureWiimoteZ_TEST.ts"
+      ],
+      "reason": "Variable-length series require explicit preprocessing"
+    }
+  ],
+  "primary": "results\\group_pruning_full\\measurements.csv",
+  "protocol": "random group masks and smaller fresh models matched to the primary run; joint PPV; TRAIN-only fitting"
+}

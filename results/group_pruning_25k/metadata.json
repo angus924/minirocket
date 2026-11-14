@@ -1,0 +1,97 @@
+{
+  "created_at_utc": "2026-11-07T03:42:34.946279+00:00",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.3.5",
+    "numba": "0.63.1",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "aeon": "1.5.0"
+  },
+  "configuration": {
+    "data": "./data/Univariate_ts/",
+    "output_dir": "results\\group_pruning_25k",
+    "datasets": [
+      "GunPoint",
+      "ECG200",
+      "Beef",
+      "Computers",
+      "Wafer",
+      "ECG5000",
+      "FacesUCR",
+      "Trace",
+      "Yoga",
+      "EthanolLevel"
+    ],
+    "seeds": [
+      0
+    ],
+    "bias_strategies": [
+      "original"
+    ],
+    "keep_fractions": [
+      1.0,
+      0.5,
+      0.2
+    ],
+    "scorers": [
+      "ridge",
+      "filter"
+    ],
+    "feature_count": 25000,
+    "examples_per_group": 1,
+    "drop_fraction": 0.3,
+    "max_dilations_per_kernel": 32,
+    "transform_repetitions": 3,
+    "resume": false
+  },
+  "split_policy": "Supplied train/test splits; seeds repeat fits, not resampled splits",
+  "timing_policy": "Exclude dataset I/O, fingerprinting, imports and train-only JIT warmup",
+  "memory_policy": "NumPy parameter bytes and dense feature bytes; not peak RSS",
+  "datasets": [
+    {
+      "name": "GunPoint",
+      "fingerprint": "6100a35534dc2557438719dddac5adb6ed573e94162872cc50dd164b2666f07b"
+    },
+    {
+      "name": "ECG200",
+      "fingerprint": "82afcbc626835573308a258ede52f114e12b8ee492193be5108db86afc5d458b"
+    },
+    {
+      "name": "Beef",
+      "fingerprint": "bcab201f6c294e7b1222520a5a7ce803931b453761b4907fe851fef02203a8dd"
+    },
+    {
+      "name": "Computers",
+      "fingerprint": "f0c4a6c97fa5f02879ff03af9cacdfa6621208208505c72a29526af077a106fe"
+    },
+    {
+      "name": "Wafer",
+      "fingerprint": "1873653837698ec1f811a6597c1d8fffa414e26eeac7fb883ab982992894cf97"
+    },
+    {
+      "name": "ECG5000",
+      "fingerprint": "d5c7c224376ff63ff13497c86058fa6c45046f40443e893959b4917279ac759b"
+    },
+    {
+      "name": "FacesUCR",
+      "fingerprint": "f18f5acf49d01ce9a925671edfe4d065fe6c54757de3a37c3cdee650df9594ce"
+    },
+    {
+      "name": "Trace",
+      "fingerprint": "cb366a7f298d26ad3d2598b1ac7364303d7d034aa930666b0a9074ef82f29df0"
+    },
+    {
+      "name": "Yoga",
+      "fingerprint": "308db1c6400902e5224c591e74239d1eb21cc93622c22a5b6e9647fad7082f64"
+    },
+    {
+      "name": "EthanolLevel",
+      "fingerprint": "c3c15f3d1ba7cb4a01f3eea8f4b1fecf7994cba7a9bf16c4f08715fb4c33c8a9"
+    }
+  ],
+  "skipped_datasets": [],
+  "protocol": "full layout fitted once; ranking on TRAIN only; classifier refit on kept TRAIN columns",
+  "csv": "measurements.csv"
+}

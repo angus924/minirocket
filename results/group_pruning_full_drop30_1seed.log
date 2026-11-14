@@ -1,0 +1,158 @@
+ACSF1 seed=0 original done
+Adiac seed=0 original done
+
+Skipping AllGestureWiimoteX
+  Variable-length series require explicit preprocessing
+
+Skipping AllGestureWiimoteY
+  Variable-length series require explicit preprocessing
+
+Skipping AllGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+ArrowHead seed=0 original done
+BME seed=0 original done
+Beef seed=0 original done
+BeetleFly seed=0 original done
+BirdChicken seed=0 original done
+CBF seed=0 original done
+Car seed=0 original done
+Chinatown seed=0 original done
+ChlorineConcentration seed=0 original done
+CinCECGTorso seed=0 original done
+Coffee seed=0 original done
+Computers seed=0 original done
+CricketX seed=0 original done
+CricketY seed=0 original done
+CricketZ seed=0 original done
+Crop seed=0 original done
+DiatomSizeReduction seed=0 original done
+DistalPhalanxOutlineAgeGroup seed=0 original done
+DistalPhalanxOutlineCorrect seed=0 original done
+DistalPhalanxTW seed=0 original done
+
+Skipping DodgerLoopDay
+  Input must contain only finite values; missing values require preprocessing
+
+Skipping DodgerLoopGame
+  Input must contain only finite values; missing values require preprocessing
+
+Skipping DodgerLoopWeekend
+  Input must contain only finite values; missing values require preprocessing
+ECG200 seed=0 original done
+ECG5000 seed=0 original done
+ECGFiveDays seed=0 original done
+EOGHorizontalSignal seed=0 original done
+EOGVerticalSignal seed=0 original done
+Earthquakes seed=0 original done
+ElectricDevices seed=0 original done
+EthanolLevel seed=0 original done
+FaceAll seed=0 original done
+FaceFour seed=0 original done
+FacesUCR seed=0 original done
+FiftyWords seed=0 original done
+Fish seed=0 original done
+FordA seed=0 original done
+FordB seed=0 original done
+FreezerRegularTrain seed=0 original done
+FreezerSmallTrain seed=0 original done
+Fungi seed=0 original done
+
+Skipping GestureMidAirD1
+  Variable-length series require explicit preprocessing
+
+Skipping GestureMidAirD2
+  Variable-length series require explicit preprocessing
+
+Skipping GestureMidAirD3
+  Variable-length series require explicit preprocessing
+
+Skipping GesturePebbleZ1
+  Variable-length series require explicit preprocessing
+
+Skipping GesturePebbleZ2
+  Variable-length series require explicit preprocessing
+GunPoint seed=0 original done
+GunPointAgeSpan seed=0 original done
+GunPointMaleVersusFemale seed=0 original done
+GunPointOldVersusYoung seed=0 original done
+Ham seed=0 original done
+HandOutlines seed=0 original done
+Haptics seed=0 original done
+Herring seed=0 original done
+HouseTwenty seed=0 original done
+InlineSkate seed=0 original done
+InsectEPGRegularTrain seed=0 original done
+InsectEPGSmallTrain seed=0 original done
+InsectWingbeatSound seed=0 original done
+ItalyPowerDemand seed=0 original done
+LargeKitchenAppliances seed=0 original done
+Lightning2 seed=0 original done
+Lightning7 seed=0 original done
+Mallat seed=0 original done
+Meat seed=0 original done
+MedicalImages seed=0 original done
+
+Skipping MelbournePedestrian
+  Variable-length series require explicit preprocessing
+MiddlePhalanxOutlineAgeGroup seed=0 original done
+MiddlePhalanxOutlineCorrect seed=0 original done
+MiddlePhalanxTW seed=0 original done
+MixedShapesRegularTrain seed=0 original done
+MixedShapesSmallTrain seed=0 original done
+MoteStrain seed=0 original done
+NonInvasiveFetalECGThorax1 seed=0 original done
+NonInvasiveFetalECGThorax2 seed=0 original done
+OSULeaf seed=0 original done
+OliveOil seed=0 original done
+
+Skipping PLAID
+  Variable-length series require explicit preprocessing
+PhalangesOutlinesCorrect seed=0 original done
+Phoneme seed=0 original done
+
+Skipping PickupGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+PigAirwayPressure seed=0 original done
+PigArtPressure seed=0 original done
+PigCVP seed=0 original done
+Plane seed=0 original done
+PowerCons seed=0 original done
+ProximalPhalanxOutlineAgeGroup seed=0 original done
+ProximalPhalanxOutlineCorrect seed=0 original done
+ProximalPhalanxTW seed=0 original done
+RefrigerationDevices seed=0 original done
+Rock seed=0 original done
+ScreenType seed=0 original done
+SemgHandGenderCh2 seed=0 original done
+SemgHandMovementCh2 seed=0 original done
+SemgHandSubjectCh2 seed=0 original done
+
+Skipping ShakeGestureWiimoteZ
+  Variable-length series require explicit preprocessing
+ShapeletSim seed=0 original done
+ShapesAll seed=0 original done
+SmallKitchenAppliances seed=0 original done
+SmoothSubspace seed=0 original done
+SonyAIBORobotSurface1 seed=0 original done
+SonyAIBORobotSurface2 seed=0 original done
+StarLightCurves seed=0 original done
+Strawberry seed=0 original done
+SwedishLeaf seed=0 original done
+Symbols seed=0 original done
+SyntheticControl seed=0 original done
+ToeSegmentation1 seed=0 original done
+ToeSegmentation2 seed=0 original done
+Trace seed=0 original done
+TwoLeadECG seed=0 original done
+TwoPatterns seed=0 original done
+UMD seed=0 original done
+UWaveGestureLibraryAll seed=0 original done
+UWaveGestureLibraryX seed=0 original done
+UWaveGestureLibraryY seed=0 original done
+UWaveGestureLibraryZ seed=0 original done
+Wafer seed=0 original done
+Wine seed=0 original done
+WordSynonyms seed=0 original done
+Worms seed=0 original done
+WormsTwoClass seed=0 original done
+Yoga seed=0 original done
